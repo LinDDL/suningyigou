@@ -1,0 +1,64 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, header, fieldset, legend, img {
+  margin: 0;
+  padding: 0; }
+
+fieldset, img {
+  border: 0; }
+
+html, body {
+  font: 12px/1.5 "Microsoft Yahei",tahoma,arial,"Hiragino Sans GB";
+  -webkit-font-smoothing: antialiased; }
+
+img {
+  display: block; }
+
+address, caption, cite, code, dfn, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+ul, ol {
+  list-style: none; }
+
+body {
+  color: #5e5e5e;
+  /*overflow-x:hidden;*/ }
+
+a, u {
+  color: #999;
+  text-decoration: none; }
+
+a:visited {
+  color: #666; }
+
+a:hover, a:active, a:focus {
+  color: #f60; }
+
+.clearfix:after {
+  clear: both;
+  content: '';
+  font-size: 0;
+  display: block;
+  visibility: hidden;
+  height: 0; }
+
+i, em {
+  font-style: normal; }
+
+strong {
+  font-weight: normal; }
+
+input {
+  outline: none;
+  border: none; }
+
+* {
+  box-sizing: border-box; }
+
+a {
+  color: #666; }
+
+body {
+  background: #f2f2f2; }
+
+button {
+  outline: none; }

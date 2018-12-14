@@ -1,0 +1,494 @@
+body{
+    background: #fff;
+}
+.header-login {
+    width: 970px;
+    height: 100px;
+    margin: 0 auto;
+    .logo {
+        position: static;
+        float: left;
+        width: 189px;
+        height: 100%;
+        background: url(../images/logo.png) center no-repeat;
+        background-size: contain;
+    }
+    .bind-phone {
+        float: left;
+        color: #333;
+        background: #fefff1;
+        border: 1px solid #fecd66;
+        line-height: 16px;
+        padding: 4px 6px;
+    }
+    .advise {
+        float: right;
+        margin-top: 8px;
+        text-decoration: none;
+    }
+    i {
+        float: left;
+        width: 18px;
+        height: 18px;
+        margin-right: 10px;
+        font-size: 12px;
+        font-family: simsun;
+        background: url(../images/sprite1.png ) -67px -27px no-repeat;
+    }
+}
+.ng-footer .ng-s-footer {
+    padding-bottom: 0;
+    text-align: center;
+}
+.ng-footer .ng-s-f-con {
+    height:inherit ;
+}
+.main {
+    height: 570px;
+    min-width: 970px;
+    background: url(https://image.suning.cn/uimg/cms/img/154451661465405887.jpg) center no-repeat;
+    .login-c {
+        width: 970px;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .single-link {
+        width: 570px;
+        height: 100%;
+        float: left;
+    }
+    .login-form {
+        float: right;
+    }
+}
+.login-form {
+    position: relative;
+    width: 360px;
+    margin-top: 50px;
+    background: #fff;
+    box-shadow: 0 0 2px #ececec;
+    font-family: "Microsoft Yahei";
+    .scan-login {
+        padding-top: 30px;
+        text-align: center;
+        position: relative;
+        .scan-box {
+            height: 156px;
+            padding: 20px 34px 0;
+            position: relative;
+            margin-bottom: 17px;
+            .qrcode {
+                width: 141px;
+                height: 141px;
+                margin: 0 auto;
+                transition: .3s all;
+                position: relative;
+                img {
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+                span {
+                    position: absolute;
+                    top: -30px;
+                    left: 0;
+                    padding-left: 8px;
+                }
+            }
+        }
+        .phone-scan {
+            display: none;
+            position: absolute;
+            top: -26px;
+            right: 34px;
+            width: 133px;
+            height: 200px;
+            background: url(../images/scan.png) no-repeat;
+        }
+        .qrcode-exception {
+            position: relative;
+            margin: 20px auto 35px;
+            width: 160px;
+            height: 160px;
+            .mask {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: #000;
+                opacity: .7;
+                filter: alpha(opacity=70);
+            }
+            .exception {
+                position: absolute;
+                left: 0;
+                width: 100%;
+                font-size: 14px;
+                color: #fff;
+                text-align: center;
+                line-height: 1.8;
+                bottom: 84px;
+            }
+            .button {
+                position: absolute;
+                left: 50%;
+                width: 100px;
+                height: 28px;
+                margin-left: -50px;
+                line-height: 28px;
+                font-size: 14px;
+                color: #fff;
+                border-radius: 2px;
+                background: #f60;
+                text-decoration: none;
+                bottom: 48px;
+            }
+        }
+        .scan-success {
+            padding-top: 40px;
+            text-align: center;
+            margin-bottom: 52px;
+            i {
+                display: inline-block;
+                width: 62px;
+                height: 62px;
+                background: url(../images/sprite1.png) no-repeat;
+            }
+            .success-txt {
+                font-size: 18px;
+                margin-top: 14px;
+            }
+            .not-refresh {
+                color: #999;
+                margin-top: 3px;
+            }
+            .open-app {
+                margin-bottom: 7px;
+                text-align: center;
+                i {
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    margin-right: 10px;
+                    background: url(../images/sprite1.png) -164px -67px no-repeat;
+                    vertical-align: -3px;
+                    *vertical-align: 0;
+                }
+                em {
+                    color: #f60;
+                }
+            }
+        }
+    }
+    .free-reg {
+        text-align: center;
+        margin: 12px 0 35px;
+    }
+    .bind-login {
+        position: relative;
+        width: 310px;
+        margin: 0 auto;
+        border-top: 1px solid #ddd;
+        padding: 19px 0 17px;
+        .title {
+            position: absolute;
+            top: -9px;
+            left: 50%;
+            margin-left: -64px;
+            color: #999;
+            width: 128px;
+            background: #fff;
+            text-align: center;
+        }
+    }
+    .login-tab {
+        height: 50px;
+        line-height: 20px;
+        font-size: 16px;
+        overflow: hidden;
+        border-bottom: 1px solid #eee;
+        .tab-item {
+            position: relative;
+            float: left;
+            height: 100%;
+            width: 50%;
+            text-decoration: none;
+            text-align: center;
+            span {
+                display: block;
+                border-right: 1px solid #eee;
+                margin-top: 15px;
+            }
+            i {
+                display: none;
+                position: absolute;
+                width: 70px;
+                height: 4px;
+                background: #f60;
+                bottom: -1px;
+                left: 50%;
+                margin-left: -35px;
+            }
+        }
+    }
+    .tab-item.on i {
+        display: block;
+    }
+    .username-login {
+        padding: 0 24px;
+    }
+    
+}
+.login-form .login-tab .tab-item.on, .login-form .login-tab .tab-item:hover {
+    color: #f60;
+}
+.email-list {
+    position: absolute;
+    width: 336px;
+    top: 50px;
+    left: 0;
+    background: #fff;
+    z-index: 9999;
+}
+
+.hide {
+    display: none;
+}
+.pc-login {
+    display: none;
+    .login-warning {
+        padding: 2px 10px;
+        font-size: 12px;
+        background: ivory;
+        border: 1px solid #fc6;
+        margin: 8px 0;
+        i {
+            float: left;
+            width: 16px;
+            height: 16px;
+            margin: 1px 8px 0 0;
+            background: url(../images/sprite1.png) -132px -27px no-repeat;
+        }
+    }
+    .login-error {
+        padding: 2px 10px;
+        font-size: 12px;
+        color: #323232;
+        background: #fff0f0;
+        border: 1px solid #ff3c3c;
+        margin: 8px 0;
+        i {
+            float: left;
+            width: 16px;
+            height: 16px;
+            margin: 1px 8px 0 0;
+            background: url(../images/sprite1.png) -161px -108px no-repeat;
+        }
+    }
+    .username-box {
+        position: relative;
+        clear: both;
+        .email-list {
+            position: absolute;
+            top: 39px;
+            left: 0;
+            width: 310px;
+        }
+    }
+    .input-box {
+        position: relative;
+        border: 1px solid #ddd;
+        color: #999;
+        padding: 0 32px 0 36px;
+        height: 36px;
+        overflow: hidden;
+        input {
+            display: block;
+            width: 100%;
+            height: 100%;
+            line-height: 36px;
+            padding: 0 32px 0 36px;
+            border: 0;
+            font-size: 14px;
+            margin-left: -36px;
+            *height: 36px;
+        }
+        label {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            padding-left: 36px;
+            line-height: 36px;
+            font-size: 14px;
+            color: #ccc;
+            cursor: text;
+            background: #fff;
+        }
+        .username-icon {
+            background: url(../images/sprite1.png) -123px -67px no-repeat;
+        }
+        .icon {
+            width: 36px;
+            height: 36px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+    .clear {
+        display: none;
+        width: 32px;
+        height: 36px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: url(../images/sprite1.png) -82px -108px no-repeat;
+        cursor: pointer;
+    }
+}
+.common {
+    .qq {
+        padding-left: 0;
+        i {
+            background: url(../images/sprite1.png) -140px -108px no-repeat;
+        }
+    }
+    .weixin i {
+        background: url(../images/sprite1.png) -90px -27px no-repeat;
+    }
+    .yifubao i {
+        background: url(../images/sprite1.png) -119px -108px no-repeat;
+    }
+    .weibo i {
+        background: url(../images/sprite1.png) 0 -149px no-repeat;
+    }
+    a {
+        float: left;
+        padding: 0 7px;
+        border-right: 1px solid #dedcd5;
+        line-height: 16px;
+        i {
+            float: left;
+            width: 16px;
+            height: 16px;
+            margin-right: 5px;
+        }
+    }
+}
+.login-form .scan-login .scan-box .qrcode.edge {
+    -ms-transform: translateX(-76px);
+    transform: translateX(-76px);
+}
+.phone-login{
+    display: none;
+    padding: 0 24px;
+}
+.login-form .pc-login .password-box, .login-form .pc-login .phone-box, .login-form .pc-login .username-box, .login-form .pc-login .verify-box {
+    margin-bottom: 20px;
+}
+.password-icon {
+    background: url(../images/sprite1.png) 0 -108px no-repeat;
+}
+.login-form .pc-login .login-submit:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #f50;
+}
+.login-form .pc-login .login-submit {
+    display: block;
+    width: 310px;
+    line-height: 40px;
+    margin: 0 auto;
+    background: #f60;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+.login-form .pc-login .login-help .login-switch i {
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: -3px;
+    *vertical-align: 0;
+}
+.login-form .pc-login .username-login .login-help i {
+    background: url(../images/sprite1.png) -21px -149px no-repeat;
+}
+
+.login-form .pc-login .login-help {
+    line-height: 35px;
+    height: 35px;
+}
+.login-form .pc-login .username-login .login-help {
+    padding-bottom: 10px;
+}
+.login-form .pc-login .phone-login .login-help i {
+    background: url(../images/sprite1.png) -39px -149px no-repeat;
+}
+.login-form .pc-login .login-help .login-switch i {
+    display: inline-block;
+    width: 13px;
+    height: 16px;
+    margin-right: 5px;
+    vertical-align: -3px;
+    *vertical-align: 0;
+}
+.sms-box .send-sms {
+    float: left;
+    width: 101px;
+    height: 100%;
+    line-height: 36px;
+    text-align: center;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-left: 0 none;
+    font-size: 14px;
+    text-decoration: none;
+}
+.login-form .pc-login .phone-login .sms-box .input-box {
+    width: 140px;
+    float: left;
+}
+*{
+    box-sizing: content-box;
+}
+.login-form .pc-login .phone-login .sms-sent {
+    display: none; 
+    line-height: 24px;
+}
+.login-form .pc-login .phone-login .sms-sent em {
+    color: #fa4b4b;
+}
+.login-form .pc-login .phone-login .voice-verify {
+    display: none; 
+    line-height: 24px;
+}
+.login-form .pc-login .phone-login .voice-verify span {
+    float: left;
+    color: #999;
+    padding-right: 5px;
+}
+.login-form .pc-login .phone-login .voice-verify a {
+    float: left;
+    width: 110px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #f60;
+    border: 1px solid #f60;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.login-form .pc-login .phone-login .voice-sent {
+    display: none;
+    line-height: 24px;
+}
+.login-form .pc-login .phone-login .blank {
+    line-height: 24px;
+}

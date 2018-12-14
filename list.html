@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./stylesheets/home.css">
+    <link rel="stylesheet" href="./stylesheets/reset.css">
+    <link rel="shortcut icon" href="http://www.suning.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="public/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./stylesheets/list.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="./javascripts/index.js"></script>
+    <script src="./public/js/jquery.cookie.js"></script>
+    <title>列表页</title>
+</head>
+<body>
+    <div class="ng-toolbar">
+        <div class="wrapper  ng-toolbar-content clearfix">
+            <div class="ng-toolbar-left">
+                <div class="ng-toolbar-node-box"> 
+                    <a href="home.html" class="ng-bar-node ng-bar-node-site ">
+                        <span>网站导航</span>
+                        <em class="ng-iconfont down fa fa-angle-down"></em>
+                    </a>
+                    <div class="ng-sn-site-nav ng-d-box site-nav-child">
+                        <dl class="sn-site-list">
+                            <dt>特色购物</dt>
+                            <dd>
+                                <p>
+                                    <a href="">苏宁互联</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁达人</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁卡</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁国际</a>
+                                </p>
+                                <p>
+                                    <a href="">大聚惠<i class="hot"></i></a>
+                                </p>
+                                <p>
+                                    <a href="">以旧换新</a>
+                                </p>
+                                <p>
+                                    <a href="">二手优品</a>
+                                </p>
+                                <p>
+                                    <a href="">领券中心</a>
+                                </p>
+                                <p>
+                                    <a href="">香港苏宁</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁Outlets</a>
+                                </p>
+                                <p>
+                                    <a  href="">节能超市</a>
+                                </p>
+                                <p>
+                                    <a href="">导购指南</a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl class="sn-site-list">
+                            <dt>主题频道</dt>
+                            <dd>
+                                <p>
+                                    <a href="">电器城</a>
+                                </p>
+                                <p>
+                                    <a  href="">苏宁超市</a>
+                                </p>
+                                <p>
+                                    <a href="">手机</a>
+                                </p>
+                                <p>
+                                    <a href="">运动馆</a>
+                                </p>
+                                <p>
+                                    <a href="">图书</a>
+                                </p>
+                                <p>
+                                    <a href="">红孩子母婴</a>
+                                </p>
+                                <p>
+                                    <a href="">美妆个护</a>
+                                </p>
+                                <p>
+                                    <a  href="">电脑</a>
+                                </p>
+                                <p>
+                                    <a href="">服装城</a>
+                                </p>
+                                <p>
+                                    <a href="">智能生活</a>
+                                </p>
+                                <p>
+                                    <a href="">家装馆</a>
+                                </p>
+                                <p>
+                                    <a href="">汽车用品</a>
+                                </p>
+                                <p>
+                                    <a href="">排行榜</a>
+                                </p>
+                                <p>
+                                    <a  href="">医药馆</a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl class="sn-site-list">
+                            <dt>生活助手</dt>
+                            <dd>
+                                <p>
+                                    <a href="">零钱宝<i class="hot"></i></a>
+                                </p>
+                                <p>
+                                    <a  href="">手机充值</a>
+                                </p>
+                                <p>
+                                    <a href="">转账还款</a>
+                                </p>
+                                <p>
+                                    <a  href="">约服务</a>
+                                </p>
+                                <p>
+                                    <a href="">水电煤</a>
+                                </p>
+                                <p>
+                                    <a href="">保险</a>
+                                </p>
+                                <p>
+                                    <a href="">机票</a>
+                                </p>
+                                <p>
+                                    <a href="">门店查询</a>
+                                </p>
+                                <p>
+                                    <a  href="">酒店</a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl class="sn-site-list">
+                            <dt>会员服务</dt>
+                            <dd>
+                                <p>
+                                    <a  href="">会员联盟<i class="hot"></i></a>
+                                </p>
+                                <p>
+                                    <a href="">延长保修</a>
+                                </p>
+                                <p>
+                                    <a href="">免费书城</a>
+                                </p>
+                                <p>
+                                    <a  href="">易付宝</a>
+                                </p>
+                                <p>
+                                    <a  href="">苏宁理财</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁金融</a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl class="sn-site-list rnb">
+                            <dt>更多热点</dt>
+                            <dd>
+                                <p>
+                                    <a  href="">PP视频</a>
+                                </p>
+                                <p>
+                                    <a  href="">客户端</a>
+                                </p>
+                                <p>
+                                    <a href="">商家入驻<i class="hot"></i></a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁联盟</a>
+                                </p>
+                                <p>
+                                    <a  href="">用户体验</a>
+                                </p>
+                                <p>
+                                    <a  href="">校园先锋</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁云</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁足球</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁公益<i class="hot"></i></a>
+                                </p>
+                            </dd>
+                        </dl>
+                    <!--网站导航列表-->
+                    
+                    <a href="javascript:void(0);" class="ng-close" name="public0_none_daohang_close">
+                        <em class="ng-iconfont fa fa-close"></em></a>
+                    </div>
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node color-oriange ng-bar-node-site">
+                        <span>商家入驻</span>
+                        <em class="ng-iconfont down fa fa-angle-down"></em>
+                    </a>        
+                    <div class=" ng-d-box site-nav-child">
+                        <dl class="sn-site-list">
+                            <dd>
+                                <p>
+                                    <a href="">合作招商</a>
+                                </p>
+                                <p>
+                                    <a href="">服务市场</a>
+                                </p>
+                                <p>
+                                    <a href="">金融中心</a>
+                                </p>
+                                <p>
+                                    <a href="">易通天下</a>
+                                </p>
+                                <p>
+                                    <a  href="">规则中心</a>
+                                </p>
+                                <p>
+                                    <a href="">金融中心</a>
+                                </p>
+                            </dd>
+                        </dl>
+                                
+                    </div>            
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node ng-bar-node-site">
+                        <span>客户服务</span>
+                        <em class="ng-iconfont down fa fa-angle-down"></em>
+                    </a>                
+                    <div class=" ng-d-box site-nav-child">
+                        <dl class="sn-site-list">
+                            <dd>
+                                <p>
+                                    <a href="">苏宁帮客</a>
+                                </p>
+                                <p>
+                                    <a href="">帮助中心</a>
+                                </p>
+                                <p>
+                                    <a href="">查找门店</a>
+                                </p>
+                                <p>
+                                    <a href="">退换/维修</a>
+                                </p>
+                                <p>
+                                    <a  href="">建议反馈</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁服务</a>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div> 
+                </div>
+            </div>
+            <div class="ng-toolbar-right">
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node ">
+                        客户服务
+                    </a>       
+                    <a href="javascript:void(0)" class="ng-bar-node color-oriange">
+                        注册有礼
+                    </a>         
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node ng-bar-node-site">
+                        <span>我都订单</span>
+                        <em class="ng-iconfont down fa fa-angle-down"></em>
+                    </a>     
+                    <div class=" ng-d-box site-nav-child">
+                            <dl class="sn-site-list">
+                                <dd>
+                                    <p>
+                                        <a href="">待支付</a>
+                                    </p>
+                                    <p>
+                                        <a href="">待收货</a>
+                                    </p>
+                                    <p>
+                                        <a href="">待评价</a>
+                                    </p>
+                                    <p>
+                                        <a href="">修改订单</a>
+                                    </p>
+                                </dd>
+                            </dl>
+                        </div>            
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node ng-bar-node-site">
+                        <span>我都易购</span>
+                        <em class="ng-iconfont down fa fa-angle-down"></em>
+                    </a>              
+                    <div class=" ng-d-box site-nav-child">
+                        <dl class="sn-site-list">
+                            <dd>
+                                <p>
+                                    <a href="">我的二手</a>
+                                </p>
+                                <p>
+                                    <a href="">我的收藏</a>
+                                </p>
+                                <p>
+                                    <a href="">我的金融</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁会员</a>
+                                </p>
+                                <p>
+                                    <a  href="">我的任性付</a>
+                                </p>
+                                <p>
+                                    <a href="">我的优惠券</a>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>  
+                    
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node">
+                        <span>苏宁会员</span>
+                    </a>                
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="cart.html" class="ng-bar-node color-oriange ng-bar-node-site">
+                        <em class="ng-icon cart"></em>
+                        <span>购物车</span>
+                        <span>4</span>
+                        <em class="ng-iconfont down fa fa-angle-down"></em>
+                    </a>                
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node">
+                        <span>易付宝</span>
+                    </a>                
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node">
+                        <span>企业采购</span>
+                    </a>                
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node ng-bar-node-site">
+                        <span>手机苏宁</span>
+                        <em class="ng-iconfont down fa fa-angle-down"></em>
+                    </a>            
+                    <div class="ng-mb-box ng-d-box mb-down-child site-nav-child">
+                        <ul class="ng-app-code">
+                            <li>
+                                <img class="top-code" alt="苏宁易购APP" src="images/i1.png">
+                                <p>关注苏宁推客公众号</p>
+                                <p>自购省钱·分享赚钱</p>
+                            </li>
+                            <li>
+                                <img class="top-code" alt="易付宝APP" src="images/i2.png">
+                                <p>扫一扫</p>
+                                <p>下载苏宁金融APP</p>
+                            </li>
+                            <li>
+                                <img class="top-code" alt="易购服务号" src="images/i3.jpg">
+                                <p>扫一扫</p>
+                                <p>关注苏宁易购服务号</p>
+                            </li>
+                        </ul>
+                        <div class="line"></div>
+                        <div class="line lineTwo"></div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 顶部工具栏 end-->
+    <!-- header start -->
+    <header class="header">
+        <div class="wrapper ng-header-content">
+            <div class="ng-header-box clearfix">
+                <a href="home.html" title="苏宁易购" class="logo"><img src="images/logo.png" alt="logo"></a>
+                <a href="javascript:void(0)" class="ng-gif-logo"><img src="images/logo_gif.gif" alt=""></a>
+            </div>
+            <div class="ng-search">
+                <div class="ng-search-box g-search-fixed">
+                    <i class="ng-icon search-icon"></i>
+                    <form action="">
+                        <div class="search-keyword-box">
+                            <input type="text" class="search-keyword" placeholder="白小纯重磅首发前3000名下单8折抢">
+                        </div>
+                        <input type="submit" class="search-btn" value="搜索">
+                        <div id="snKeywordNew" class="ng-search-hotwords">
+                            <input type="hidden" id="searchDefaultKeyword" value="白小纯重磅首发 前3000名下单8折抢" key="白小纯重磅首发 前3000名下单8折抢">
+                            <a target="_blank" href="javascript:void(0)">取暖器</a>
+                            <a target="_blank" href="javascript:void(0)"><font style="color:#FF6600">白小纯纯牛奶</font></a>
+                            <a target="_blank" href="javascript:void(0)">毛呢大衣</a>
+                            <a target="_blank" href="javascript:void(0)">手机</a>
+                            <a target="_blank" href="javascript:void(0)">电视</a>
+                            <a target="_blank" href="javascript:void(0)">洗衣机</a>
+                            <a target="_blank" href="javascript:void(0)">空调</a>
+                            <a target="_blank" href="javascript:void(0)">ipad</a>
+                            <a target="_blank" href="javascript:void(0)">牛奶</a>
+                            <a target="_blank" href="javascript:void(0)">零食</a>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+    <!-- nav end -->
+    <nav class="ng-nav-bar clearfix">
+        <div class="index-sort">
+            <a href="javacriptP:void(0)" class="index-all-hook">
+                <i></i>
+                <span>全部商品分类</span>
+            </a>
+            <div class="index-sort-list-wrapper" style="display: none">
+                <div class="nav-cover"></div>
+                <ul class="index-list">
+                    <li>
+                        <a href="javascrpit:void(0)">手机</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">运营商</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">智能数码</a>
+                    </li>
+                    <li>
+                        <a href="javascrpit:void(0)">电视</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">冰箱</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">空调</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">洗衣机</a>
+                    </li>
+                    <li>
+                        <a href="javascrpit:void(0)">厨卫大电</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">生活家电</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">厨具</a>
+                    </li>
+                    <li>
+                        <a href="javascrpit:void(0)">电脑办公</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">相机</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">DIY</a>
+                    </li>
+                    <li>
+                        <a href="javascrpit:void(0)">家居</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">家具</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">家装</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">家纺</a>
+                    </li>
+                    <li>
+                        <a href="javascrpit:void(0)">食品</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">酒水</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">生鲜</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">特产</a>
+                    </li>
+                    <li>
+                        <a href="javascrpit:void(0)">美妆</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">个户清洁</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">宠物</a>
+                    </li>
+                    <li>
+                        <a href="javascrpit:void(0)">母婴</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">玩具</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">车床</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">童装</a>
+                    <li>
+                        <a href="javascrpit:void(0)">运动</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">户外</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">足球</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">跑步机</a>
+                    </li>
+                    <li>
+                        <a href="javascrpit:void(0)">男装</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">女装</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">内衣</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">鞋靴</a>
+                    </li>
+                    <li>
+                        <a href="javascrpit:void(0)">箱包</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">钟表</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">珠宝</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">艺术</a>
+                    </li>
+                    <li>
+                        <a href="javascrpit:void(0)">汽摩</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">二手车</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">汽车用品</a>
+                    </li>
+                    <li>
+                        <a href="javascrpit:void(0)">图书</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">童书</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">教辅教材</a>
+                    </li>
+                    <li>
+                        <a href="javascrpit:void(0)">医药健康</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">计生情趣</a>
+                    </li>
+                    <li>
+                        <a href="javascrpit:void(0)">理财</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">分期</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">保险</a>
+                        <em></em>
+                        <a href="javascrpit:void(0)">房产</a>
+                    </li>
+                </ul>
+                <div class="index-sort-detail">
+                    <div class="sort-btn">
+                        <a href="" title="手机频道">手机频道</a>
+                        <a href="" title="智能数码">智能数码</a>
+                        <a href="" title="以旧换新">以旧换新</a>
+                        <a href="" title="网上营业厅">网上营业厅</a>
+                        <a href="" title="企业采购">企业采购</a>
+                        <a href="" title="苏宁国际">苏宁国际</a>
+                        <a href="" title="二手优品">二手优品</a>
+                    </div>
+                    <div class="cate-list">
+                        <dl>
+                            <dt>
+                                <a href="" title="手机通讯">手机通讯</a>
+                            </dt>
+                            <dd>
+                                <a href="" title="【手机5折起 iPhone X低至￥6288限量抢】" class="orange">【手机5折起 iPhone X低至￥6288限量抢】</a>
+                                <a href="" title="全部手机">全部手机</a>
+                                <a href="" title="iPhone">iPhone</a>
+                                <a href="" title="华为" class="orange">华为</a>
+                                <a href="" title="小米">小米</a>
+                                <a href="" title="荣耀">荣耀</a>
+                                <a href="" title="OPPO">OPPO</a>
+                                <a href="" title="vivo">vivo</a>
+                                <a href="" title="诺基亚">诺基亚</a>
+                                <a href="" title="魅族">魅族</a>
+                                <a href="" title="美图">美图</a>
+                                <a href="" title="三星">三星</a>
+                                <a href="" title="努比亚">努比亚</a>
+                                <a href="" title="联想">联想</a>
+                                <a href="" title="飞利浦">飞利浦</a>
+                                <a href="" title="天语">天语</a>
+                                <a href="" title="守护宝">守护宝</a>
+                                <a href="" title="正品好货" class="orange">正品好货</a>
+                                <a href="" title="以旧换新">以旧换新</a>
+                                <a href="title=" 手机维修"="">手机维修</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="" title="手机配件" name="public0_sortListv6_968427816_word01">手机配件</a>
+                                </dt>
+                                <dd>
+                                    <a href="" title="【原装配件新品首发 限时直降】" class="orange">【原装配件新品首发 限时直降】</a>
+                                    <a href="" title="手机壳">手机壳</a>
+                                    <a href="" title="手机贴膜">手机贴膜</a>
+                                    <a href="" title="手机存储卡">手机存储卡</a>
+                                    <a href="" title="数据线">数据线</a>
+                                    <a href="" title="充电器">充电器</a>
+                                    <a href="" title="无线充电器">无线充电器</a>
+                                    <a href="" title="手机耳机">手机耳机</a>
+                                    <a href="" title="手机电池">手机电池</a>
+                                    <a href="" title="苹果周边">苹果周边</a>
+                                    <a href="" title="移动电源">移动电源</a>
+                                    <a href="" title="蓝牙耳机">蓝牙耳机</a>
+                                    <a href="" title="自拍杆">自拍杆</a>
+                                    <a href="" title="手机支架">手机支架</a>
+                                    <a href="" title="手机U盘">手机U盘</a>
+                                    <a href="" title="蓝牙音箱">蓝牙音箱</a>
+                                    <a href="" title="车载配件">车载配件</a>
+                                    <a href="" title="手机饰品">手机饰品</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="">智能设备</a>
+                                </dt>
+                                <dd>
+                                    <a href="" title="【智能风暴爆款满3000减300】" class="orange">【智能风暴爆款满3000减300】</a>
+                                    <a href="" title="智能门锁" class="orange">智能门锁</a>
+                                    <a href="" title="平衡车" class="orange">平衡车</a>
+                                    <a href="" title="无人机">无人机</a>
+                                    <a href="" title="智能摄像头">智能摄像头</a>
+                                    <a href="" title="智能机器人">智能机器人</a>
+                                    <a href="" title="智能手环">智能手环</a>
+                                    <a href="" title="智能手表">智能手表</a>
+                                    <a href="" title="VR眼镜">VR眼镜</a>
+                                    <a href="" title="智能家居">智能家居</a>
+                                    <a href="" title="智能健康监测">智能健康监测</a>
+                                    <a href="" title="玩客云" class="orange">玩客云</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="" title="影音电子">影音电子</a>
+                                </dt>
+                                <dd>
+                                    <a href="" title="【影音爆款耳机0元试用 每满300减30】" class="orange">【影音爆款耳机0元试用 每满300减30】</a>
+                                    <a href="" title="音箱" class="orange">音箱</a>
+                                    <a href="" title="耳机/耳麦">耳机/耳麦</a>
+                                    <a href="" title="智能音箱" class="orange">智能音箱</a>
+                                    <a href="" title="运动耳机">运动耳机</a>
+                                    <a href="" title="MP3/MP4">MP3/MP4</a>
+                                    <a href="" title="收音/收音机">收音/收音机</a>
+                                    <a href="" title="录音笔">录音笔</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="" title="电子教育">电子教育</a>
+                                </dt>
+                                <dd>
+                                    <a href="" title="儿童手表" class="orange">儿童手表</a>
+                                    <a href="" title="学生电脑/学习机">学生电脑/学习机</a>
+                                    <a href="" title="故事机">故事机</a>
+                                    <a href="" title="翻译机">翻译机</a>
+                                    <a href="" title="步步高点读机" class="orange">步步高点读机</a>
+                                    <a href="" title="小天才儿童手表" class="orange">小天才儿童手表</a>
+                                    <a href="" title="点读机/笔">点读机/笔</a>
+                                    <a href="" title="电子书">电子书</a>
+                                    <a href="" title="电子词典">电子词典</a>
+                                    <a href="" title="复读机">复读机</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="" title="二手优品">二手优品</a>
+                                </dt>
+                                <dd>
+                                    <a href="" title="iphone 7">iphone 7</a>
+                                    <a href="" title="iphone 8">iphone 8</a>
+                                    <a href="" title="iPhone X">iPhone X</a>
+                                    <a href="" title="iphone 8p">iphone 8p</a>
+                                    <a href="" title="iphone 7P">iphone 7P</a>
+                                    <a href="" title="oppo">oppo</a>
+                                    <a href="" title="vivo">vivo</a>
+                                    <a href="" title="三星">三星</a>
+                                    <a href="" title="华为">华为</a>
+                                    <a href="" title="小米">小米</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="" title="苏宁互联">苏宁互联</a>
+                                </dt>
+                                <dd>
+                                    <a href="" title="2元流量畅享" class="orange">2元流量畅享</a>
+                                    <a href="" title="0月租号卡" class="orange">0月租号卡</a>
+                                    <a href="" title="立即选号">立即选号</a>
+                                    <a href="" title="超级靓号">超级靓号</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="" title="营业厅">营业厅</a>
+                                </dt>
+                                <dd>
+                                    <a href="" title="【39元200GB全国流量】" class="orange">【39元200GB全国流量】</a>
+                                    <a href="" title="手机卡">手机卡</a>
+                                    <a href="" title="大流量卡">大流量卡</a>
+                                    <a href="" title="宽带" class="orange">宽带</a>
+                                    <a href="" title="办套餐">办套餐</a>
+                                    <a href="" title="充话费/流量">充话费/流量</a>
+                                    <a href="" title="中国移动">中国移动</a>
+                                    <a href="" title="中国电信">中国电信</a>
+                                    <a href="" title="中国联通">中国联通</a>
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>
+                                    <a href="" title="数码服务产品">数码服务产品</a>
+                                </dt>
+                                <dd>
+                                    <a href="" title="【数码以旧换新】" class="orange">【数码以旧换新】</a>
+                                    <a href="" title="数码综合服务馆：数码服务三十六计">数码综合服务馆：数码服务三十六计</a>
+                                </dd>
+                            </dl>
+                    </div>
+                    <div class="actShow">
+                            <div class="brandList clearfix">
+                                <a href=""><img src="images/b1.jpg"></a>
+                                <a href=""><img src="images/b2.jpg"></a>
+                                <a href=""><img src="images/b3.jpg"></a>
+                                <a href=""><img src="images/b4.jpg"></a>
+                                <a href=""><img src="images/b5.jpg"></a>
+                                <a href=""><img src="images/b6.jpg"></a>
+                                <a href=""><img src="images/b7.jpg"></a>
+                                <a href=""><img src="images/b8.jpg" ></a>
+                            </div>
+                        <div class="actList clearfix">
+                            <a href="" title="智能数码"> <img src="images/b9.jpg"></a>
+                            <a href="" title="手机12.3"><img src="images/b10.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ng-nav-index">
+            <ul class="ng-nav clearfix">
+                <li><a href="javascript:void(0)">大聚惠</a><span></span></li>
+                <li><a href="javascript:void(0)">红孩子</a><span></span></li>
+                <li><a href="javascript:void(0)">苏宁超市<i class="hot"></i></a><span></span></li>
+                <li><a href="javascript:void(0)">电器城</a><span></span></li>
+                <li><a href="javascript:void(0)">生活家电</a><span></span></li>
+                <li><a href="javascript:void(0)">时尚服饰</a><span></span></li>
+                <li><a href="javascript:void(0)">苏宁国际</a><span></span></li>
+                <li><a href="javascript:void(0)">苏宁Outles</a><span></span></li>
+                <li><a href="javascript:void(0)">金融</a><span></span></li>
+                <li><a href="javascript:void(0)">直播</a><span></span></li>
+            </ul>
+        </div>
+        <div class="ng-nav-right-ad">
+            <a href="javascript:void(0)"><img src="/images/ad.png" alt=""></a>
+        </div>
+    </nav>
+    <div class="crumbs">
+        <div id="search-path" class="crumbs crumbsTV clearfix">
+            <a rel="nofollow" title="首页" class="allResult all" href="">首页</a>
+            <i class="icon-right fa fa-right"></i>
+            <a class="result-right" title="手机/数码/配件" href="">手机/数码/配件</a>
+            <i class="icon-right"></i>
+            <dl>
+                <dt>
+                <a title="手机通讯" href="">手机通讯</a>
+                <i class="icon-down"></i>
+                </dt>
+            <dd>
+                <a title="手机配件" href="">手机配件</a>
+                <a title="运营商" href="">运营商</a>
+                <a title="摄影摄像"  href="">摄影摄像</a>
+                <a title="数码配件" href="">数码配件</a>
+                <a title="智能设备"  href="" style=" margin-right: 0;">智能设备</a>
+                <a title="影音电子" href="">影音电子</a>
+                <a title="电子教育"  href="">电子教育</a>
+                <a title="手机维修"  href="">手机维修</a>
+                <a title="智能酷玩"  href="">智能酷玩</a>
+                <a title="运营商C店"  href="" style=" margin-right: 0;">运营商C店</a>
+            </dd>
+            </dl>
+            <i class="icon-right"></i>
+            <a class="result-right" title="手机" href="">手机</a>
+        </div>
+    </div>
+    <div class="advanced-filter search-wrap">
+        <div class="filter-container clearfix">
+            <div class="filter-section scroll-brand clearfix">
+                <label class="brand-label">品牌</label>
+                <div class="scroll-container">
+                    <em class="s-arrows left disabled "></em>
+                    <em class="s-arrows right "></em>
+                    <div class="brand-wraper">
+                        <ul class="brands">
+                            <li class="s-brand H" title="华为(HUAWEI)" >
+                                <a href="" name="ssdln_20006_gjsx_品牌-华为(HUAWEI)">
+                                    <img src="//image.suning.cn/uimg/pcms/brandLogo/0864_140x56.jpg" alt="华为(HUAWEI)">
+                                    <span class="brand-name">华为(HUAWEI)</span>
+                                    <div class="b-text" style="left: 0px; top: 100%;">
+                                    <i></i><span class="t-name">华为(HUAWEI)</span>
+                                    <div class="b-bg"></div>
+                                    </div>
+                                    <b class="icon-bottom"></b>
+                                </a>
+                            </li>
+                            <li class="s-brand H" title="华硕(ASUS)" >
+                                <a href=""  name="ssdsn_search_gjsx_品牌-华硕(ASUS)">
+                                    <img src="//image.suning.cn/uimg/pcms/brandLogo/0860_140x56.jpg" alt="华硕(ASUS)">
+                                    <span class="brand-name">华硕(ASUS)</span>
+                                    <div class="b-text" style="left: 0px; top: 100%;">
+                                        <i></i><span class="t-name">华硕(ASUS)</span>
+                                        <div class="b-bg"></div>
+                                    </div>
+                                    <b class="icon-bottom"></b>
+                                </a>
+                            </li>
+                            <li class="s-brand R"  title="荣耀(honor)">
+                                <a href="" name="ssdln_20006_gjsx_品牌-荣耀(honor)">
+                                    <img src="https://imgservice1.suning.cn/uimg1/pcms/newcatentries/unZTB3fQsLdKtE5lXhkvKA.jpg" alt="荣耀(honor)">
+                                    <span class="brand-name">荣耀(honor)</span>
+                                    <div class="b-text" style="left: 0px; top: 100%;">
+                                        <i></i><span class="t-name">荣耀(honor)</span>
+                                        <div class="b-bg"></div>
+                                    </div>
+                                    <b class="icon-bottom"></b>
+                                </a>
+                            </li>
+                            <li class="s-brand V">
+                                <a href="" name="ssdln_20006_gjsx_品牌-vivo">
+                                <img src="//image.suning.cn/uimg/pcms/brandLogo/J675_140x56.jpg" alt="vivo">
+                                <span class="brand-name">vivo</span>
+                                <div class="b-text" style="left: 0px; top: 100%;">
+                                <i></i><span class="t-name">vivo</span>
+                                <div class="b-bg"></div>
+                                </div>
+                                <b class="icon-bottom"></b>
+                                </a>
+                            </li>
+                            <li class="s-brand O">
+                                <a href="" name="ssdln_20006_gjsx_品牌-OPPO">
+                                    <img src="//image.suning.cn/uimg/pcms/brandLogo/0115_140x56.jpg" alt="OPPO">
+                                    <span class="brand-name">OPPO</span>
+                                    <div class="b-text" style="left: 0px; top: 100%;">
+                                        <i></i><span class="t-name">OPPO</span>
+                                        <div class="b-bg"></div>
+                                    </div>
+                                    <b class="icon-bottom"></b>
+                                </a>
+                            </li>
+                            <li class="s-brand M">
+                                <a href="" name="ssdln_20006_gjsx_品牌-魅族(MEIZU)">
+                                    <img src="//image.suning.cn/uimg/pcms/brandLogo/1389_140x56.jpg" alt="魅族(MEIZU)">
+                                    <span class="brand-name">魅族(MEIZU)</span>
+                                    <div class="b-text" style="left: 0; top: 100%;">
+                                        <i></i><span class="t-name">魅族(MEIZU)</span>
+                                        <div class="b-bg"></div>
+                                        </div>
+                                    <b class="icon-bottom"></b>
+                                </a>
+                            </li>
+                            <li class="s-brand S">
+                                <a href="" name="ssdln_20006_gjsx_品牌-三星(SAMSUNG)">
+                                    <img src="//image.suning.cn/uimg/pcms/brandLogo/1659_140x56.jpg" alt="三星(SAMSUNG)">
+                                    <span class="brand-name">三星(SAMSUNG)</span>
+                                    <div class="b-text" style="left: 0px; top: 100%;">
+                                        <i></i><span class="t-name">三星(SAMSUNG)</span>
+                                        <div class="b-bg"></div>
+                                    </div>
+                                    <b class="icon-bottom"></b>
+                                </a>
+                            </li>
+                            <li class="s-brand N">
+                                <a href="" name="ssdln_20006_gjsx_品牌-诺基亚(NOKIA)">
+                                    <img src="//image.suning.cn/uimg/pcms/brandLogo/1459_140x56.jpg" alt="诺基亚(NOKIA)">
+                                    <span class="brand-name">诺基亚(NOKIA)</span>
+                                    <div class="b-text" style="left: 0px; top: 100%;">
+                                        <i></i><span class="t-name">诺基亚(NOKIA)</span>
+                                        <div class="b-bg"></div>
+                                    </div>
+                                    <b class="icon-bottom"></b>
+                                </a>
+                            </li>
+                            <li class="s-brand N">
+                                <a href="" name="ssdln_20006_gjsx_品牌-努比亚(nubia)">
+                                    <img src="//image.suning.cn/uimg/pcms/brandLogo/J667_140x56.jpg" alt="努比亚(nubia)">
+                                    <span class="brand-name">努比亚(nubia)</span>
+                                    <div class="b-text" style="left: 0px; top: 100%;">
+                                        <i></i><span class="t-name">努比亚(nubia)</span>
+                                        <div class="b-bg"></div>
+                                    </div>
+                                    <b class="icon-bottom"></b>
+                                </a>
+                            </li>
+                            <li class="s-brand M">
+                                <a href="">
+                                    <img src="//image.suning.cn/uimg/pcms/brandLogo/0BEC_140x56.jpg" alt="美图(Meitu)">
+                                    <span class="brand-name">美图(Meitu)</span>
+                                    <div class="b-text" style="left: 0px; top: 100%;">
+                                        <i></i><span class="t-name">美图(Meitu)</span>
+                                        <div class="b-bg"></div>
+                                    </div>
+                                    <b class="icon-bottom"></b>
+                                </a>
+                            </li>
+                            <li class="s-brand L">
+                                <a href="" name="ssdln_20006_gjsx_品牌-联想(Lenovo)">
+                                    <img src="//image.suning.cn/uimg/pcms/brandLogo/1303_140x56.jpg" alt="联想(Lenovo)">
+                                    <span class="brand-name">联想(Lenovo)</span>
+                                    <div class="b-text" style="left: 0; top: 100%;">
+                                        <i></i><span class="t-name">联想(Lenovo)</span>
+                                        <div class="b-bg"></div>
+                                    </div>
+                                    <b class="icon-bottom"></b>
+                                </a>
+                            </li>
+                            <li class="s-brand F">
+                                <a href="" name="ssdln_20006_gjsx_品牌-飞利浦(Philips)">
+                                    <img src="//image.suning.cn/uimg/pcms/brandLogo/0611_140x56.jpg" alt="飞利浦(Philips)">
+                                    <span class="brand-name">飞利浦(Philips)</span>
+                                    <div class="b-text" style="left: 0px; top: 100%;">
+                                        <i></i><span class="t-name">飞利浦(Philips)</span>
+                                        <div class="b-bg"></div>
+                                    </div>
+                                    <b class="icon-bottom"></b>
+                                </a>
+                            </li>
+                            <li class="s-brand S">
+                                <a href="" name="ssdln_20006_gjsx_品牌-守护宝">
+                                    <img src="//image.suning.cn/uimg/pcms/brandLogo/491S_140x56.jpg" alt="守护宝">
+                                    <span class="brand-name">守护宝</span>
+                                    <div class="b-text" style="left: 0; top:100%;">
+                                    <i></i><span class="t-name">守护宝</span>
+                                    <div class="b-bg"></div>
+                                    </div>
+                                    <b class="icon-bottom"></b>
+                                </a>
+                            </li>
+                            <li class="s-brand L">
+                                <a href="" name="ssdln_20006_gjsx_品牌-乐视">
+                                    <img src="//image.suning.cn/uimg/pcms/brandLogo/8D78_140x56.jpg" alt="乐视">
+                                    <span class="brand-name">乐视</span>
+                                    <div class="b-text" style="left: 0; top:100%;">
+                                    <i></i><span class="t-name">乐视</span>
+                                    <div class="b-bg"></div>
+                                    </div>
+                                    <b class="icon-bottom"></b>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="filter-section price-section clearfix">
+            <div class="s-left">
+                <label>价格</label>
+            </div>
+            <div class="s-right clearfix">
+                <a href="" class="f-item">0-500</a>
+                <a href="" class="f-item">500-1000</a>
+                <a href="" class="f-item">1000-1700</a>
+                <a href="" class="f-item">1700-2800</a>
+                <a href="" class="f-item">2800-4500</a>
+                <a href="" class="f-item">4500-8000</a>
+                <a href="" class="f-item">8000以上</a>
+
+            </div>
+        </div>
+        <div class="filter-section price-section clearfix">
+            <div class="s-left">
+                <label>网络制式</label>
+            </div>
+            <div class="s-right clearfix">
+                <a href="" class="f-item">全网通</a>
+                <a href="" class="f-item">移动4G</a>
+                <a href="" class="f-item">联通4G</a>
+                <a href="" class="f-item">电信4G</a>
+                <a href="" class="f-item">双卡双4G</a>
+                <a href="" class="f-item">双卡单4G</a>
+                <a href="" class="f-item">其他</a>
+            </div>
+        </div>
+        <div class="filter-section price-section clearfix">
+            <div class="s-left">
+                <label>机身内存</label>
+            </div>
+            <div class="s-right clearfix">
+                <a href="" class="f-item">512GB</a>
+                <a href="" class="f-item">256GB</a>
+                <a href="" class="f-item">128GB</a>
+                <a href="" class="f-item">64GB</a>
+                <a href="" class="f-item">32GB</a>
+                <a href="" class="f-item">16GB</a>
+                <a href="" class="f-item">8GB</a>
+                <a href="" class="f-item">4GB</a>
+                <a href="" class="f-item">4GB以下</a>
+            </div>
+        </div>
+        <div class="filter-section price-section clearfix">
+            <div class="s-left">
+                <label>其他选项</label>
+            </div>
+            <div class="s-right clearfix">
+                <a href="" class="f-item">屏幕尺寸</a>
+                <a href="" class="f-item">操作系统</a>
+                <a href="" class="f-item">运行内存</a>
+                <a href="" class="f-item">CPU</a>
+                <a href="" class="f-item">后置摄像头</a>
+                <a href="" class="f-item">前置摄像头</a>
+                <a href="" class="f-item">电池容量</a>
+                <a href="" class="f-item">大家说</a>
+            </div>
+        </div>
+        <div id="produce-wrap">
+            <div class="product-list clearfix">
+                <ul class="general clearfix">
+                    <!-- <li  class="item-wrap mobileProduct">
+                        <div class="item-bg ">
+                            <div class="product-box">
+                                <input type="hidden" class="hidenInfo">
+                                <div class="res-img">
+                                    <div class="img-block">
+                                        <a href="javascript:void(0)" class="sellPoint">
+                                        <img alt="【热卖爆品】Apple iPhone XS Max 256GB 金色 移动联通电信4G手机 双卡双待" src="//imgservice2.suning.cn/uimg1/b2c/image/M2K6Uokx5_BYeRRwkCUW2Q.jpg_400w_400h_4e">
+                                        <i class="rt"><img src="//image.suning.cn/uimg/pcms/label05/199118557640820508210400_05.png"></i></a>
+                                    </div>
+                                    <div class="focus-box disable-scroll">
+                                        <a href="javascript:void(0);" class="btn-l disabled"><b></b></a> <a href="javascript:void(0);" class="btn-r"><b></b></a>
+                                        <div class="focus-img">
+                                            <dl style="width: 120px;" class="10606649862subCode">
+                                                <dd>
+                                                    <a href="javascript:void(0)">
+                                                    <img width="32" height="32" src="//imgservice2.suning.cn/uimg1/b2c/image/RiVf1Qd0jgRv-LVeEoCWQA.jpg_400w_400h_4e">
+                                                    </a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:void(0)">
+                                                    <img width="32" height="32" src="//imgservice2.suning.cn/uimg1/b2c/image/svl3MDP6_tYxdRsXVS_MwA.jpg_400w_400h_4e">
+                                                    </a>
+                                                </dd>
+                                                <dd>
+                                                    <a href="javascript:void(0)"  class="select">
+                                                        <img width="32" height="32" src="//imgservice2.suning.cn/uimg1/b2c/image/M2K6Uokx5_BYeRRwkCUW2Q.jpg_400w_400h_4e">
+                                                    </a>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="res-info">
+                                    <div class="price-box">
+                                        <span class="def-price">
+                                        <i>¥</i>10999<i>.00</i></span>
+                                    </div>
+                                    <div class="title-selling-point">
+                                        <a title="下单6天内发货-A12仿生处理器-6.5英寸-256GB内存-全面屏-面容识别-双卡双待" href="javascript:void(0)">【热卖爆品】Apple iPhone XS Max 256GB 金色 移动联通电信4G手机 双卡双待
+                                        <em style="">下单6天内发货-A12仿生处理器-6.5英寸-256GB内存-全面屏-面容识别-双卡双待</em>
+                                        </a>
+                                    </div>
+                                    <div class="info-config" title=" 256GB |6.1英寸以上">
+                                        <em> 256GB <i>|</i>6.1英寸以上</em>
+                                    </div>
+                                    <div class="evaluate-old clearfix">
+                                        <div class="info-evaluate">
+                                        <a target="_blank"  href=""><i>7.1万+</i>评价</a>
+                                        </div>
+                                    </div>
+                                    <div class="store-stock">
+                                        <a href="javascript:void(0);" class="store-class zy">苏宁自营</a>
+                                    </div>
+                                    <div class="sales-label" ishotbrief="false">
+                                        <span><i>大聚惠</i></span>
+                                        <span class=""><i>赠品</i><em></em></span>
+                                    </div>
+                                </div>
+                                <div class="res-opt one-third">
+                                    <a href="javascript:void(0);" class="btn-db"><i></i><em>取消</em>对比</a>
+                                    <a  href="javascript:void(0);"  class="btn-sc"><i></i><em>已</em>收藏</a>
+                                    <input type="hidden" value="1" class="cart-ipt">
+                                    <input type="hidden" value="1" class="ajaxSuccess">
+                                    <a href="javascript:void(0)" class="btn-gwc"><i></i>加入购物车</a>
+                                </div>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- foot   start -->
+    <div class="ng-footer">
+            <div class="ng-ser-box">
+                <div class="ng-ser-box-con">
+                    <div class="ng-promise">
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="./images/f1.jpg" alt="正品保障、提供发票">
+                                </a>
+                            </dt>
+                            <dd>
+                                <p>
+                                    <strong>
+                                        <a href="">正品保障</a>
+                                    </strong>
+                                </p>
+                                <p>正品保障、提供发票</p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="./images/f2.jpg" alt="如约送货、送货入户">
+                                </a>
+                            </dt>
+                            <dd>
+                                <p>
+                                    <strong>
+                                        <a href="">急速物流</a>
+                                    </strong>
+                                </p>
+                                <p>如约送货、送货入户</p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="images/f3.jpg" alt="30天包退、365天包换">
+                                </a>
+                            </dt>
+                            <dd>
+                                <p>
+                                    <strong>
+                                        <a href="">帮助中心</a>
+                                    </strong>
+                                </p>
+                                <p>您的购物指南</p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="images/f4.jpg" alt="私人定制家电套餐">
+                                </a>
+                            </dt>
+                            <dd>
+                                <p>
+                                    <strong>
+                                        <a href="">特色服务</a>
+                                    </strong>
+                                </p>
+                                <p>私人定制家电套餐</p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="images/f5.jpg" alt="您的购物指南">
+                                </a>
+                            </dt>
+                            <dd>
+                                <p>
+                                    <strong>
+                                        <a href="">帮助中心</a>
+                                    </strong>
+                                </p>
+                                <p>您的购物指南</p>
+                            </dd>
+                        </dl>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="ng-help-box">
+                        <dl>
+                            <dt>购物指南</dt>
+                            <dd>
+                                <a href="">导购演示</a>
+                            </dd>
+                            <dd>
+                                <a href="">免费注册</a>
+                            </dd>
+                            <dd>
+                                <a href="">会员等级</a>
+                            </dd>
+                            <dd>
+                                <a href="">常见问题</a>
+                            </dd>
+                            <dd>
+                                <a href=""">品牌大全</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>支付方式</dt>
+                            <dd>
+                                <a href="">苏宁支付</a>
+                            </dd>
+                            <dd>
+                                <a href="">网银支付</a>
+                            </dd>
+                            <dd>
+                                <a href="">快捷支付</a>
+                            </dd>
+                            <dd>
+                                <a href="">分期付款</a>
+                            </dd>
+                            <dd>
+                                <a href="">货到付款</a>
+                            </dd>
+                            <dd>
+                                <a href="">任性付支付</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>物流配送</dt>
+                            <dd>
+                                <a href="">免运费政策</a>
+                            </dd>
+                            <dd><a href="">物流配送服务</a></dd>
+                            <dd><a href="">签收验货</a></dd>
+                            <dd><a href="">物流查询</a></dd>
+                        </dl>
+                        <dl>
+                            <dt>售后服务</dt>
+                            <dd>
+                                <a href="">退换货政策</a>
+                            </dd>
+                            <dd>
+                                <a href="">贵就赔</a>
+                            </dd>
+                            <dd>
+                                <a href="">维修/安装</a>
+                            </dd>
+                            <dd>
+                                <a href="">订单修改</a>
+                            </dd>
+                            <dd>
+                                <a href="">退换货申请</a>
+                            </dd>
+                            <dd>
+                                <a href="">我的发票</a>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>商家服务</dt>
+                            <dd>
+                                <a href="">商家入驻</a>
+                            </dd>
+                            <dd>
+                                <a href="">培训中心</a>
+                            </dd>
+                            <dd>
+                                <a href="">广告服务</a>
+                            </dd>
+                            <dd>
+                                <a href="">商家帮助</a>
+                            </dd>
+                            <dd>
+                                <a href="">服务市场</a>
+                            </dd>
+                            <dd>
+                                <a href="">规则中心</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="ng-app-down">
+                    <p>身边苏宁</p>
+                    <a href="">全国300多个城市，上万个门店和服务终端期待您的光临，为您提供最贴心的服务！</a>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="ng-s-footer">
+                <div class="ng-s-f-con">
+                    <p class="ng-url-list">
+                        <a href=""> 苏宁互联</a>
+                        <span>|</span>
+                        <a href="">苏宁金融</a>
+                        <span>|</span>
+                        <a href="">苏宁支付</a>
+                        <span>|</span>
+                        <a href="">PP视频</a>
+                        <span>|</span>
+                        <a href="">红孩子</a>
+                        <span>|</span>
+                        <a href="">苏宁物流</a>
+                        <span>|</span>
+                        <a href="">手机苏宁 </a>
+                        <span>|</span>
+                        <a href="">零售云</a>
+                        <span>|</span>
+                        <a href="">苏宁云</a>
+                        <span>|</span>
+                        <a href="">知识产权举报</a>
+                        <span>|</span>
+                        <a href="">投资者关系</a>
+                    </p>
+                    <p class="ng-url-list">
+                        <a href="">联系我们</a>
+                        <span>|</span>
+                        <a href="">诚聘英才</a>
+                        <span>|</span>
+                        <a href="">供应商入驻</a>
+                        <span>|</span>
+                        <a href="">广告平台</a>
+                        <span>|</span>
+                        <a href="">苏宁联盟</a>
+                        <span>|</span>
+                        <a href="">苏宁招标</a>
+                        <span>|</span>
+                        <a href="">友情链接</a>
+                        <span>|</span>
+                        <a href="">隐私声明</a>
+                        <span>|</span>
+                        <a href="">用户体验提升计划</a>
+                        <span>|</span>
+                        <a href="">股东会员认证</a>
+                    </p>
+                    <p class="ng-copyright" style="display: block;">
+                        Copyright© 2002-2018，苏宁易购集团股份有限公司版权所有
+                        <span>|</span>
+                        <a href="" style="color:#999" class="gwab">
+                            <i></i>苏公网安备 32010202010078号
+                        </a>
+                        <span>|</span>
+                        <a href="" style="color:#999">苏ICP备10207551号-4</a>
+                        <span>|</span>
+                        <a href="" style="color:#999">苏B1-20130131</a>
+                    </p>
+                    <p class="ng-copyright ng-copyright-2" style="display: block;">
+                        <a href="" style="color:#999">苏B2-20130376</a><span>|</span>
+                        <a href="" style="color:#999">苏B2-20130391</a><span>|</span>
+                        <a href="" style="color:#999">出版物经营许可证新出发苏批字第A-243号</a><span>|</span>
+                        互联网药品信息服务资格证书
+                        <a href="" style="color:#999">（苏）-非经营性-2016-0005</a>
+                    </p>
+                    <p class="ng-copyright ng-copyright-3" style="display: block;">
+                        <a href="" style="color:#999">网络文化经营许可证：苏网文〔2018〕10580-203号</a>
+                    </p>
+                    <p class="ng-copyright" style="display: block;">本网站直接或间接向消费者推销商品或者服务的商业宣传均属于“广告”（包装及参数、售后保障等商品信息除外）</p>
+                    <div class="ng-authentication" style="display: block;">
+                        <a href="">
+                        <img src="./images/ft1.png" height="24" width="76" alt="诚信网站">
+                        </a>
+                        <a href="">
+                        <img src="./images/ft2.png" height="24" width="76" alt="中国联通授权网络经营代理商">
+                        </a>
+                        <a href="">
+                        <img src="./images/ft3.jpg" height="24" width="76" alt="中国电信授权网络经营代理商">
+                        </a>
+                        <a href="">
+                        <img src="./images/ft4.png" height="24" width="76" alt="电子营业执照">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--top fix bar [[-->
+            <div class="ng-fix-bar ng-nav-bar">
+                <div class="index-sort">
+                    <a href="javascript:void(0)" class="index-all-hook">
+                        <i></i>
+                        <span>全部商品分类</span>
+                    </a>
+                    <div class="index-sort-list-wrapper">
+                        <div class="nav-cover"></div>
+                        <ul class="index-list">
+                            <li>
+                                <a href="javascrpit:void(0)">手机</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">运营商</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">智能数码</a>
+                            </li>
+                            <li>
+                                <a href="javascrpit:void(0)">电视</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">冰箱</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">空调</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">洗衣机</a>
+                            </li>
+                            <li>
+                                <a href="javascrpit:void(0)">厨卫大电</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">生活家电</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">厨具</a>
+                            </li>
+                            <li>
+                                <a href="javascrpit:void(0)">电脑办公</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">相机</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">DIY</a>
+                            </li>
+                            <li>
+                                <a href="javascrpit:void(0)">家居</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">家具</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">家装</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">家纺</a>
+                            </li>
+                            <li>
+                                <a href="javascrpit:void(0)">食品</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">酒水</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">生鲜</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">特产</a>
+                            </li>
+                            <li>
+                                <a href="javascrpit:void(0)">美妆</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">个户清洁</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">宠物</a>
+                            </li>
+                            <li>
+                                <a href="javascrpit:void(0)">母婴</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">玩具</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">车床</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">童装</a>
+                            </li><li>
+                                <a href="javascrpit:void(0)">运动</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">户外</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">足球</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">跑步机</a>
+                            </li>
+                            <li>
+                                <a href="javascrpit:void(0)">男装</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">女装</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">内衣</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">鞋靴</a>
+                            </li>
+                            <li>
+                                <a href="javascrpit:void(0)">箱包</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">钟表</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">珠宝</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">艺术</a>
+                            </li>
+                            <li>
+                                <a href="javascrpit:void(0)">汽摩</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">二手车</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">汽车用品</a>
+                            </li>
+                            <li>
+                                <a href="javascrpit:void(0)">图书</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">童书</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">教辅教材</a>
+                            </li>
+                            <li>
+                                <a href="javascrpit:void(0)">医药健康</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">计生情趣</a>
+                            </li>
+                            <li>
+                                <a href="javascrpit:void(0)">理财</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">分期</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">保险</a>
+                                <em></em>
+                                <a href="javascrpit:void(0)">房产</a>
+                            </li>
+                        </ul>
+                        <div class="index-sort-detail">
+                            <div class="sort-btn"></div>
+                            <div class="cate-list"></div>
+                            <div class="act-show"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ng-search">
+                    <div class="ng-search-box g-search-fixed">
+                        <i class="ng-icon search-icon"></i>
+                        <form action="">
+                            <div class="search-keyword-box">
+                                <input type="text" class="search-keyword" placeholder="白小纯重磅首发前3000名下单8折抢">
+                            </div>
+                            <input type="submit" class="search-btn" value="搜索">
+                        </form>
+                    </div>
+                </div>
+                <div class="reg-bar-node-fixed">
+                    <a href="javascript:void(0)" class="login">请登录</a>
+                    <a href="javascript:void(0)" class="login reg-bbb">注册有礼</a>
+                </div>
+                <a href="" class="ng-bar-node-mini-cart-fixed">
+                    <em class="ng-iconfont cart fa fa-cart-plus"></em>
+                    <span>购物车</span>
+                    <span class="total-num-box"><b class="total-num J_cart_total_num">4</b></span>
+                    <em class="ng-iconfont down fa fa-angle-down"></em>
+                </a>
+            </div>
+            <!--top fix bar ]]-->
+    </div>
+        <!-- foot end -->
+</body>
+</html>
+<script src="./javascripts/list.js"></script>

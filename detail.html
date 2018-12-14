@@ -1,0 +1,1385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/home.css">
+    <link rel="stylesheet" href="./stylesheets/reset.css">
+    <link rel="shortcut icon" href="http://www.suning.com/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="public/font-awesome-4.7.0/css/font-awesome.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./stylesheets/detail.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script src="./public/js/jquery.cookie.js"></script>
+    <script src="./javascripts/index.js"></script>
+    <title>详情页</title>
+</head>
+<body>
+    <div class="ng-toolbar">
+        <div class="wrapper  ng-toolbar-content clearfix">
+            <div class="ng-toolbar-left">
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node ng-bar-node-site ">
+                        <span>网站导航</span>
+                        <em class="ng-iconfont down fa fa-angle-down"></em>
+                    </a>
+                    <div class="ng-sn-site-nav ng-d-box site-nav-child">
+                        <dl class="sn-site-list">
+                            <dt>特色购物</dt>
+                            <dd>
+                                <p>
+                                    <a href="">苏宁互联</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁达人</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁卡</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁国际</a>
+                                </p>
+                                <p>
+                                    <a href="">大聚惠<i class="hot"></i></a>
+                                </p>
+                                <p>
+                                    <a href="">以旧换新</a>
+                                </p>
+                                <p>
+                                    <a href="">二手优品</a>
+                                </p>
+                                <p>
+                                    <a href="">领券中心</a>
+                                </p>
+                                <p>
+                                    <a href="">香港苏宁</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁Outlets</a>
+                                </p>
+                                <p>
+                                    <a  href="">节能超市</a>
+                                </p>
+                                <p>
+                                    <a href="">导购指南</a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl class="sn-site-list">
+                            <dt>主题频道</dt>
+                            <dd>
+                                <p>
+                                    <a href="">电器城</a>
+                                </p>
+                                <p>
+                                    <a  href="">苏宁超市</a>
+                                </p>
+                                <p>
+                                    <a href="">手机</a>
+                                </p>
+                                <p>
+                                    <a href="">运动馆</a>
+                                </p>
+                                <p>
+                                    <a href="">图书</a>
+                                </p>
+                                <p>
+                                    <a href="">红孩子母婴</a>
+                                </p>
+                                <p>
+                                    <a href="">美妆个护</a>
+                                </p>
+                                <p>
+                                    <a  href="">电脑</a>
+                                </p>
+                                <p>
+                                    <a href="">服装城</a>
+                                </p>
+                                <p>
+                                    <a href="">智能生活</a>
+                                </p>
+                                <p>
+                                    <a href="">家装馆</a>
+                                </p>
+                                <p>
+                                    <a href="">汽车用品</a>
+                                </p>
+                                <p>
+                                    <a href="">排行榜</a>
+                                </p>
+                                <p>
+                                    <a  href="">医药馆</a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl class="sn-site-list">
+                            <dt>生活助手</dt>
+                            <dd>
+                                <p>
+                                    <a href="">零钱宝<i class="hot"></i></a>
+                                </p>
+                                <p>
+                                    <a  href="">手机充值</a>
+                                </p>
+                                <p>
+                                    <a href="">转账还款</a>
+                                </p>
+                                <p>
+                                    <a  href="">约服务</a>
+                                </p>
+                                <p>
+                                    <a href="">水电煤</a>
+                                </p>
+                                <p>
+                                    <a href="">保险</a>
+                                </p>
+                                <p>
+                                    <a href="">机票</a>
+                                </p>
+                                <p>
+                                    <a href="">门店查询</a>
+                                </p>
+                                <p>
+                                    <a  href="">酒店</a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl class="sn-site-list">
+                            <dt>会员服务</dt>
+                            <dd>
+                                <p>
+                                    <a  href="">会员联盟<i class="hot"></i></a>
+                                </p>
+                                <p>
+                                    <a href="">延长保修</a>
+                                </p>
+                                <p>
+                                    <a href="">免费书城</a>
+                                </p>
+                                <p>
+                                    <a  href="">易付宝</a>
+                                </p>
+                                <p>
+                                    <a  href="">苏宁理财</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁金融</a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl class="sn-site-list rnb">
+                            <dt>更多热点</dt>
+                            <dd>
+                                <p>
+                                    <a  href="">PP视频</a>
+                                </p>
+                                <p>
+                                    <a  href="">客户端</a>
+                                </p>
+                                <p>
+                                    <a href="">商家入驻<i class="hot"></i></a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁联盟</a>
+                                </p>
+                                <p>
+                                    <a  href="">用户体验</a>
+                                </p>
+                                <p>
+                                    <a  href="">校园先锋</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁云</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁足球</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁公益<i class="hot"></i></a>
+                                </p>
+                            </dd>
+                        </dl>
+                    <!--网站导航列表-->
+                    
+                    <a href="javascript:void(0);" class="ng-close" name="public0_none_daohang_close">
+                        <em class="ng-iconfont fa fa-close"></em></a>
+                    </div>
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node color-oriange ng-bar-node-site">
+                        <span>商家入驻</span>
+                        <em class="ng-iconfont down fa fa-angle-down"></em>
+                    </a>        
+                    <div class=" ng-d-box site-nav-child">
+                        <dl class="sn-site-list">
+                            <dd>
+                                <p>
+                                    <a href="">合作招商</a>
+                                </p>
+                                <p>
+                                    <a href="">服务市场</a>
+                                </p>
+                                <p>
+                                    <a href="">金融中心</a>
+                                </p>
+                                <p>
+                                    <a href="">易通天下</a>
+                                </p>
+                                <p>
+                                    <a  href="">规则中心</a>
+                                </p>
+                                <p>
+                                    <a href="">金融中心</a>
+                                </p>
+                            </dd>
+                        </dl>
+                                
+                    </div>            
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node ng-bar-node-site">
+                        <span>客户服务</span>
+                        <em class="ng-iconfont down fa fa-angle-down"></em>
+                    </a>                
+                    <div class=" ng-d-box site-nav-child">
+                        <dl class="sn-site-list">
+                            <dd>
+                                <p>
+                                    <a href="">苏宁帮客</a>
+                                </p>
+                                <p>
+                                    <a href="">帮助中心</a>
+                                </p>
+                                <p>
+                                    <a href="">查找门店</a>
+                                </p>
+                                <p>
+                                    <a href="">退换/维修</a>
+                                </p>
+                                <p>
+                                    <a  href="">建议反馈</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁服务</a>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div> 
+                </div>
+            </div>
+            <div class="ng-toolbar-right">
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node ">
+                        客户服务
+                    </a>       
+                    <a href="javascript:void(0)" class="ng-bar-node color-oriange">
+                        注册有礼
+                    </a>         
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node ng-bar-node-site">
+                        <span>我都订单</span>
+                        <em class="ng-iconfont down fa fa-angle-down"></em>
+                    </a>     
+                    <div class=" ng-d-box site-nav-child">
+                            <dl class="sn-site-list">
+                                <dd>
+                                    <p>
+                                        <a href="">待支付</a>
+                                    </p>
+                                    <p>
+                                        <a href="">待收货</a>
+                                    </p>
+                                    <p>
+                                        <a href="">待评价</a>
+                                    </p>
+                                    <p>
+                                        <a href="">修改订单</a>
+                                    </p>
+                                </dd>
+                            </dl>
+                        </div>            
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node ng-bar-node-site">
+                        <span>我都易购</span>
+                        <em class="ng-iconfont down fa fa-angle-down"></em>
+                    </a>              
+                    <div class=" ng-d-box site-nav-child">
+                        <dl class="sn-site-list">
+                            <dd>
+                                <p>
+                                    <a href="">我的二手</a>
+                                </p>
+                                <p>
+                                    <a href="">我的收藏</a>
+                                </p>
+                                <p>
+                                    <a href="">我的金融</a>
+                                </p>
+                                <p>
+                                    <a href="">苏宁会员</a>
+                                </p>
+                                <p>
+                                    <a  href="">我的任性付</a>
+                                </p>
+                                <p>
+                                    <a href="">我的优惠券</a>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>  
+                    
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node">
+                        <span>苏宁会员</span>
+                    </a>                
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node color-oriange ng-bar-node-site">
+                        <em class="ng-icon cart"></em>
+                        <span>购物车</span>
+                        <span>4</span>
+                        <em class="ng-iconfont down fa fa-angle-down"></em>
+                    </a>                
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node">
+                        <span>易付宝</span>
+                    </a>                
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node">
+                        <span>企业采购</span>
+                    </a>                
+                </div>
+                <div class="ng-toolbar-node-box"> 
+                    <a href="javascript:void(0)" class="ng-bar-node ng-bar-node-site">
+                        <span>手机苏宁</span>
+                        <em class="ng-iconfont down fa fa-angle-down"></em>
+                    </a>            
+                    <div class="ng-mb-box ng-d-box mb-down-child site-nav-child">
+                        <ul class="ng-app-code">
+                            <li>
+                                <img class="top-code" alt="苏宁易购APP" src="images/i1.png">
+                                <p>关注苏宁推客公众号</p>
+                                <p>自购省钱·分享赚钱</p>
+                            </li>
+                            <li>
+                                <img class="top-code" alt="易付宝APP" src="images/i2.png">
+                                <p>扫一扫</p>
+                                <p>下载苏宁金融APP</p>
+                            </li>
+                            <li>
+                                <img class="top-code" alt="易购服务号" src="images/i3.jpg">
+                                <p>扫一扫</p>
+                                <p>关注苏宁易购服务号</p>
+                            </li>
+                        </ul>
+                        <div class="line"></div>
+                        <div class="line lineTwo"></div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 顶部工具栏 end-->
+    <!-- header start -->
+    <header class="header">
+        <div class="wrapper ng-header-content">
+            <div class="ng-header-box clearfix">
+                <a href="home.html" title="苏宁易购" class="logo"><img src="images/logo.png" alt="logo"></a>
+                <a href="javascript:void(0)" class="ng-gif-logo"><img src="images/logo_gif.gif" alt=""></a>                
+            </div>
+            <div class="ng-search">
+                <div class="ng-search-box g-search-fixed">
+                    <i class="ng-icon search-icon"></i>
+                    <form action="">
+                        <div class="search-keyword-box">
+                            <input type="text" class="search-keyword" placeholder="白小纯重磅首发前3000名下单8折抢">
+                        </div>
+                        <input type="submit" class="search-btn" value="搜索">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper proinfo">
+        <div class="proinfo-container clearfix left-wider">
+            <div class="proinfo-left">
+                <div id="imgZoom" class="imgzoom"> 
+                    <div class="imgzoom-main"> 
+                        <div class="playmark-box"> 
+                        </div> 
+                        <a id="bigImg" class="view-img"  href="javascript:void(0);"> 
+                            <img alt="【热卖爆品】Apple iPhone XS Max 256GB 金色 移动联通电信4G手机 双卡双待" src="//imgservice.suning.cn/uimg1/b2c/image/LTl_U90IgfExx7xjh_fcwQ.png_800w_800h_4e"> 
+                        </a> 
+                        <div class="imgzoom-shot"></div> 
+                        <i id="labelPicture" class="g-sticker-80">
+                            <b class=""></b>
+                        </i> 
+                        <i class="oversea-logo hide"></i> 
+                        <i class="bzt" style=""></i>
+                        <a href="javascript:void(0);" class="close"></a> 
+                    </div> 
+                    <a href="javascript:void(0);" class="imgzoom-video-play" style="display: inline;"></a> 
+                    <div class="imgzoom-thumb"> 
+                        <a  class="prev prev-disable" href="javascript:void(0);" style="visibility: hidden;"></a> 
+                        <div class="imgzoom-thumb-main"> 
+                            <ul style="left: 0px;"> 
+                                <li class=""> 
+                                    <a  href="javascript:void(0);" class="first">
+                                        <img  alt="【热卖爆品】Apple iPhone XS Max 256GB 金色 移动联通电信4G手机 双卡双待" src="//imgservice.suning.cn/uimg1/b2c/image/zvk1SYcvo9Syy0bJGqYHag.jpg_800w_800h_4e">
+                                    </a> 
+                                </li> 
+                                <li class=""> 
+                                    <a href="javascript:void(0);">
+                                        <img  alt="【热卖爆品】Apple iPhone XS Max 256GB 金色 移动联通电信4G手机 双卡双待" src="//imgservice.suning.cn/uimg1/b2c/image/RiVf1Qd0jgRv-LVeEoCWQA.jpg_800w_800h_4e">
+                                    </a> 
+                                </li> 
+                                <li class="" > 
+                                    <a  href="javascript:void(0);">
+                                        <img alt="【热卖爆品】Apple iPhone XS Max 256GB 金色 移动联通电信4G手机 双卡双待" src="//imgservice.suning.cn/uimg1/b2c/image/R8TX8jW8JjvMwkFdIzo7-w.png_800w_800h_4e"></a>
+                                </li> 
+                                <li class=""> 
+                                    <a href="javascript:void(0);">
+                                        <img  alt="【热卖爆品】Apple iPhone XS Max 256GB 金色 移动联通电信4G手机 双卡双待" src="//imgservice.suning.cn/uimg1/b2c/image/LTl_U90IgfExx7xjh_fcwQ.png_800w_800h_4e">
+                                    </a> 
+                                </li> 
+                                <li class=""> 
+                                    <a  href="javascript:void(0);">
+                                        <img  alt="【热卖爆品】Apple iPhone XS Max 256GB 金色 移动联通电信4G手机 双卡双待" src="//imgservice.suning.cn/uimg1/b2c/image/aOJSKQWFpWpiIINomu1ipg.png_800w_800h_4e">
+                                    </a> 
+                                </li> 
+                            </ul> 
+                        </div> 
+                        <a class="next next-disable" href="javascript:void(0);" style="visibility: hidden;"></a> 
+                    </div> 
+                    <div class="imgzoom-pop">
+                        <img src="//imgservice.suning.cn/uimg1/b2c/image/LTl_U90IgfExx7xjh_fcwQ.png_800w_800h_4e"> 
+                    </div> 
+                </div>
+                <div class="imgzoom-memo"> 
+                    <div class="z-item compare"> 
+                        <a id="compare" href="javascript:;" style="">
+                            <i></i>对比
+                        </a> 
+                    </div> 
+                    <div class="share"> 
+                        <span class="label"><i class="sh-i"></i>分享</span>
+                    </div>
+                    <div class="z-item favorite"> 
+                        <a href="" id="inerestBox">
+                            <i></i>收藏
+                        </a> 
+                    </div> 
+                    <div class="z-item research" id="research"> 
+                        <a href=""> 
+                            <i></i>有奖调查
+                        </a> 
+                    </div> 
+                </div>
+                <div class="shopping-guide-l lazy-ajax" id="shoppingGuide">
+                    <div class="sg-summary"> 
+                        <strong>专属导购</strong>
+                        <span>实物体验 免费服务</span> 
+                    </div> 
+                    <div class="sg-girl ">
+                        <div class="g-portrait"> 
+                            <img alt="" class="lazy-loading" src="https://oss.suning.com/sntk/sntk_image/Vz9fF8SDJXabuYEqAmaompEjNyT_Z9J0mT1BT3KaLDQPS3DiwpiBiCp3UADuSz1P.png"> 
+                        </div> 
+                        <div class="girl-r"> 
+                            <p> 
+                                <span class="name">
+                                    <strong>李永强</strong>
+                                </span> 
+                                <span class=" star-bg"> 
+                                    <i class="star-val" style="overflow: hidden; width: 80%;"></i> 
+                                </span> 
+                                <span class="wk-txt">已接<i class="order-num">1222</i>单</span> 
+                            </p> 
+                            <p class="store-address ">
+                                <strong>苏宁易购（回龙观店）</strong>
+                            </p>  
+                            <a href="" class="btn-go ">去门店找TA</a> 
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="proinfo-main no-right-side">
+                <div class="proinfo-title">
+                    <h1 id="itemDisplayName">
+                        <span class="zy" id="itemNameZy">自营</span>【热卖爆品】Apple iPhone XS Max 256GB 金色 移动联通电信4G手机 双卡双待</h1> 
+                    <h2 id="promotionDesc" style="display: block;">【稀缺爆品，限量抢购】下单6天内发货-A12仿生处理器-6.5英寸-256GB内存-全面屏-面容识别-双卡双待&nbsp;&nbsp;
+                        <a href=""  class="btn-prom-point">iPhone X 64GB券后低至6288元</a>
+                    </h2> 
+                </div>
+                <img class="big-prom-img" src="//image.suning.cn/uimg/pcms/label02/121769178282072593713000_04.png" alt="">
+                <div class="dajuhui-panel">
+                    <span class="djh-logo"></span>
+                    <span class="djh-cd"> 
+                        <i class="djh-icon"></i> 
+                        <span class="active-label" id="beginOrEnd">距抢购结束</span> 
+                        <span class="proinfo-cd"> 
+                            <em class="d">02</em> 
+                            <span>天</span> 
+                            <em class="h">09</em> 
+                            <span>时</span> 
+                            <em class="m">37</em> 
+                            <span>分</span> 
+                            <em class="s">08.2</em> 
+                            <span>秒</span> 
+                        </span> 
+                    </span>
+                    <div class="djh-qg" id="djhBuyNum" style=""> 
+                        <span class="yq">已抢</span> 
+                        <span class="num">3660件</span> 
+                    </div>
+                </div>
+                <div class="proinfo-focus clearfix">
+                    <div class="price-container clearfix">
+                        <dl class="price-promo">
+                            <dt>
+                                <span class="w3" id="promPriceText">活动价</span>
+                            </dt>
+                            <dd>
+                                <span class="mainprice">
+                                    <i>¥</i>
+                                    10999.
+                                    <span>00</span>
+                                </span>
+                            </dd>
+
+                        </dl>
+                        <dl class="super-vipbox" style="">
+                            <dd id="superYz">
+                                <span class="super-vip-icon"></span>
+                                <span class="super-word">加入会员返云钻，下单立返约219.98元</span>
+                                <a href="" class="more-equity" id="superYzLink">立即开通&gt;</a>
+                            </dd>
+                        </dl>
+                        <dl class="proinfo-comments">        
+                            <div class="v-div-line"></div>    
+                            <a href="">                                                          
+                                <div>累计评价</div>
+                                <span>2.2万+</span>    
+                            </a>   
+                        </dl>
+                    </div>
+                    <dl class="receive-quan" id="freeCouponTitle" style=""> 
+                        <dt>
+                            <span class="w3" id="getCoupon">优惠券</span>
+                        </dt> 
+                        <dd> 
+                            <div class="more-juan" id="freeCouponBox" style="display: none;">
+                            </div> 
+                            <div class="gua-juan"> 
+                                <a href="javascript:;" class="a1"></a> 
+                                <span>100%刮中券，最高50元无敌券</span> 
+                                <a href="javascript:;" class="a2" >立即去刮奖&gt;</a> 
+                            </div> 
+                        </dd> 
+                    </dl>
+                    <dl class="proinfo-promo">
+                        <dt>
+                            <span class="w2">促销</span>
+                        </dt>
+                        <dd>
+                            <ul class="promo-list">
+                                <li id="limitGifts" class="manzen-handle-li" style="">
+                                    <label>限量赠</label> 
+                                    <i class="i-triangle"></i> 
+                                    <p class="promotion-content"> </p>
+                                    <div class="manzen-handle manzen-handle-show" id="jtzpHandle"> 
+                                        <span class="manzen-hendle-text">  1-40000名送赠品（赠完即止） </span>
+                                    </div> 
+                                </li>
+                                <li id="limitGifts" class="manzen-handle-li" style="">
+                                    <label>实名有礼</label> 
+                                    <i class="i-triangle"></i> 
+                                    <p class="promotion-content"> </p>
+                                    <div class="manzen-handle manzen-handle-show" id="jtzpHandle"> 
+                                        <span class="manzen-hendle-text">  实名认证领苏宁支付券 </span>
+                                    </div> 
+                                </li>
+                                <li id="limitGifts" class="manzen-handle-li" style="">
+                                    <label>云钻</label> 
+                                    <i class="i-triangle"></i> 
+                                    <p class="promotion-content"> </p>
+                                    <div class="manzen-handle manzen-handle-show" id="jtzpHandle"> 
+                                        <span class="manzen-hendle-text">  普通会员反<em style="color:#38d">1649</em>云钻 </span>
+                                    </div> 
+                                </li>
+                            </ul>
+                            
+                        </dd>
+                    </dl>
+                   
+                </div>
+                <dl class="support-panel" style=""> 
+                    <dt>
+                        <span class="w2">支持</span>
+                    </dt> 
+                    <dd class=""> 
+                        <a href="javascript:void(0);"  >
+                            <span class="sp-item sjtc" id="phoneGoLook">
+                                <i class="border-l"></i>
+                                <i class="icon"></i>78元10GB<i class="border-r"></i>
+                            </span>
+                        </a>
+                            <a id="yjhx"  href="" > 
+                            <span class="sp-item yjhx" > 
+                                <i class="border-l"></i> 
+                                <i class="icon"></i>以旧换新 <i class="border-r"></i> 
+                            </span> 
+                        </a> 
+                    </dd> 
+                    <span class="tool-tip" >
+                        <i class="a-up-arrow"></i>78元10GB
+                    </span> 
+                </dl>
+                <div class="proinfo-deliver">
+                    <dl>
+                        <dt><span class="w2">送至</span></dt>
+                        <dd class="clearfix"> 
+                            <div id="sncity" class="l">
+                                <div class="ui-city">
+                                    <a href="###" class="ui-city-toggle">
+                                        <em class="address-placement">
+                                            <span class="ct" id="citybName" >北京</span>
+                                            <span id="districtName" class="ds" >东城区</span>
+                                        </em>
+                                        <b class="arr"></b>
+                                    </a>
+                                    <span>86元免基础运费(60.00kg内)</span>
+                                    <span>支持</span>
+                                    <em style="color:#38d">自提</em>
+                                </div>
+                            </div> 
+                        </dd>
+                    </dl>
+                </div>
+                <div>
+                    <dl>
+                        <dt>
+                            <span class="w2">重量</span>
+                        </dt>
+                        <dd>0.48kg</dd>
+                    </dl>
+                </div>
+                <div class="divide-line"></div>
+                <div class="tzm">
+                    <dl id="colorItemList" class="proinfo-color-ex proattr-radio"> 
+                        <dt> 
+                            <span class="w2"> 颜色 </span> 
+                        </dt>
+                        <dd> 
+                            <ul class="tip-infor clearfix"> 
+                                <li title="深空灰" class="clr-item"> 
+                                    <a href="javascript:void(0);" title="深空灰 256G"> 
+                                        <img src="//imgservice.suning.cn/uimg1/b2c/image/M2K6Uokx5_BYeRRwkCUW2Q.jpg_60w_60h_4e" alt="">
+                                        <i></i>
+                                        <span>深空灰</span> 
+                                    </a> 
+                                </li> 
+                                <li  title="金色" class="clr-item selected"> 
+                                    <a  href="javascript:void(0);" title="金色 256G"> 
+                                        <img src="//imgservice.suning.cn/uimg1/b2c/image/RiVf1Qd0jgRv-LVeEoCWQA.jpg_60w_60h_4e" alt="">
+                                        <i></i>
+                                        <span>金色</span> 
+                                    </a> 
+                                </li> 
+                                <li title="银色" class="clr-item" > 
+                                    <a  href="javascript:void(0);" title="银色 256G"> 
+                                        <img src="//imgservice.suning.cn/uimg1/b2c/image/svl3MDP6_tYxdRsXVS_MwA.jpg_60w_60h_4e" alt="">
+                                        <i></i>
+                                        <span>银色</span> 
+                                    </a>
+                                </li>   
+                            </ul> 
+                        </dd> 
+                    </dl>
+                    <dl id="colorItemList" class="proinfo-buytype proattr-radio"> 
+                        <dt> 
+                            <span class="w2"> 版本 </span> 
+                        </dt>
+                        <dd> 
+                            <ul class="clearfix"> 
+                                <li class=""> 
+                                    <a href="javascript:void(0);" title="深空灰 256G"> 
+                                        256G
+                                        <i></i>
+                                    </a> 
+                                </li> 
+                                <li  title="金色" class="selected"> 
+                                    <a  href="javascript:void(0);" title="金色 256G"> 
+                                        512G
+                                        <i></i>
+                                    </a> 
+                                </li> 
+                                <li title="银色" class="" > 
+                                    <a  href="javascript:void(0);" title="银色 256G"> 
+                                            64G
+                                            <i></i>
+                                    </a>
+                                </li>   
+                            </ul> 
+                        </dd> 
+                    </dl>
+                    <dl id="colorItemList" class="proinfo-buytype proattr-radio"> 
+                        <dt> 
+                            <span class="w2"> 任性付 </span> 
+                        </dt>
+                        <dd> 
+                            <ul class="clearfix"> 
+                                <li class=""> 
+                                    <a href="javascript:void(0);" title="深空灰 256G"> 
+                                        ¥3776.32×3期
+                                        <i></i>
+                                    </a> 
+                                </li> 
+                                <li  title="金色" class="selected"> 
+                                    <a  href="javascript:void(0);" title="金色 256G"> 
+                                            ¥1937.66×6期
+                                        <i></i>
+                                    </a> 
+                                </li> 
+                                <li title="银色" class="" > 
+                                    <a  href="javascript:void(0);" title="银色 256G"> 
+                                            ¥1021.07×12期
+                                            <i></i>
+                                    </a>
+                                </li>   
+                                <li title="银色" class="" > 
+                                    <a  href="javascript:void(0);" title="银色 256G"> 
+                                            ¥568.28×24期
+                                            <i></i>
+                                    </a>
+                                </li>   
+                            </ul> 
+                        </dd> 
+                    </dl>
+                    <dl id="colorItemList" class="proinfo-yb proinfo-yanbao proattr-check"> 
+                        <dt> 
+                            <span class="w2"> 增值服务 </span> 
+                        </dt>
+                        <dd> 
+                            <ul class="clearfix"> 
+                                <li class=""> 
+                                    <a href="javascript:void(0);"> 
+                                        <label class="hui"></label>
+                                        <img class="icon_img" src="//image1.suning.cn/uimg/EWOP/exttype/YCSP_1.png">
+                                        <span>原厂碎屏1年&nbsp;&nbsp;¥289.00</span>
+                                        <i class="flag"></i>
+                                    </a> 
+                                </li> 
+                                <li  title="金色" class="selected"> 
+                                    <a  href="javascript:void(0);"> 
+                                        <img class="icon_img" src="//image1.suning.cn/uimg/EWOP/exttype/SPB_1.png">
+                                        <span class="promotionSpan">碎屏保6月&nbsp;&nbsp;¥129.00</span>
+                                        <i class="flag"></i>
+                                    </a> 
+                                </li> 
+                                <li title="银色" class="" > 
+                                    <a  href="javascript:void(0);"> 
+                                        <label class="hui"></label>
+                                        <img class="icon_img" src="//image1.suning.cn/uimg/EWOP/exttype/QBX_1.png">
+                                        <span class="promotionSpan">全保修2年&nbsp;&nbsp;¥459.00</span>
+                                        <i class="flag"></i>
+                                    </a>
+                                </li>   
+                            </ul> 
+                        </dd> 
+                    </dl>
+                    <dl id="buycount" class="proinfo-num" style=""> 
+                        <dt>
+                            <span class="w2">数量</span>
+                        </dt> 
+                        <dd class="clearfix">
+                            <a href="javascript:void(0);" class="func minus minus-disable" >
+                            </a>
+                            <input id="buyNum" type="text" value="1" max="1">
+                            <a href="javascript:void(0);" class="func plus plus-disable" ></a> 
+                            <span id="productLimit" class="tip" style="">正在促销，每人限购<em>1</em>件</span> 
+                        </dd> 
+                    </dl>
+                    <div class="mainbtns clearfix">
+                        <a href="javascript:void(0)" class="btn-dark-buy">立即购买</a>
+                        <a href="javascript:void(0)" class="btn-orange-buy">
+                            <i></i>
+                            加入购物车
+                        </a>
+                        <div class="qrcode-panel">
+                            <div class="qrc-wrapper  " > 
+                                <img onerror="javascript:$('#qrCode').hide();" class="b-img lazy-loading" src="//code.suning.cn/pc/build.do?longUrl=687474703a2f2f632e6d2e73756e696e672e636f6d2f6368616e6e656c7761702e68746d3f61707069643d31267061636b6e76657273696f6e3d313331266368616e6e656c636f64653d313030363126646f776e666c61673d312675746d5f736f757263653d7172636f64652675746d5f6d656469756d3d312675746d5f636f6e74656e743d343030302675746d5f7465726d3d30322675746d5f63616d706169676e3d26616454797065436f64653d3130313326616449643d31303630363634393836325f30303030303030303030266368616e6e656c747970653d30362673746f72653d343030305f30315f2670726f64756374547970653d30&amp;bizCode=i9seHn"> 
+                            </div>
+                            <div class="q-bottom"> 
+                                <span class="s-img"></span> 
+                                <div class="q-text one-row">
+                                    <div class="cli-buy txt">扫一扫购买</div>
+                                </div> 
+                                <i class="ng-iconfont fa fa-angle-down"></i> 
+                            </div>
+                        </div>
+                    </div>
+                    <dl class="pro-serv-panel"> 
+                        <dt>特色服务</dt> 
+                        <dd class="proinfo-serv clearfix" id="proinfo-id"> 
+                            <span id="safekeep" style="display: block;"> 
+                                <a href="" class="spbg-note blue-bg" > 
+                                    <i class="icon"></i>商品保管说明 
+                                    <span class="s-tooltip"> 
+                                        <i class="s-t-lion"></i> 商品保管说明 
+                                        <span class="tri-pointer-up"> 
+                                            <i class="inner-tri"></i> 
+                                        </span> 
+                                    </span> 
+                                </a> 
+                            </span> 
+                            <span> 
+                                <a  href="" class="zqcg blue-bg" > 
+                                    <i class="icon"></i>企业采购 
+                                    <span class="s-tooltip" > 
+                                        <i class="s-t-lion"></i> 针对企业客户采购的专业服务 
+                                        <span class="tri-pointer-up"> 
+                                            <i class="inner-tri"></i> 
+                                        </span> 
+                                    </span> 
+                                </a> 
+                            </span>
+                            <span label="label">
+                                <a href="" class="icon-image blue-bg">
+                                    <img class="icon" src="https://image.suning.cn/uimg/MLS/label/921432721171994343446630.jpg">
+                                    代客检
+                                    <span class="s-tooltip" >
+                                        <i class="s-t-lion"></i>退换货提供免费上门取送检测服务
+                                        <span class="tri-pointer-up">
+                                            <i class="inner-tri"></i>
+                                        </span>
+                                    </span>
+                                </a>
+                            </span>
+                            <span label="label">
+                                <a href="" class="icon-image blue-bg" >
+                                    <img class="icon" src="https://image.suning.cn/uimg/MLS/label/107058977084347871192200.png">7天无理由退货（激活后不支持）
+                                    <span class="s-tooltip" style="left: 21.5px;">
+                                        <i class="s-t-lion"></i>7天无理由退货，保购物无忧
+                                        <span class="tri-pointer-up">
+                                            <i class="inner-tri"></i>
+                                        </span>
+                                    </span>
+                                </a>
+                            </span>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="tabarea">
+            <ul class="tabarea-items">
+                <li class="current"><a href="javascript:void(0)">看了又看</a></li>
+                <li><a href="javascript:void(0)">热门推荐</a></li>
+                <li><a href="javascript:void(0)">推荐搭配</a></li>
+            </ul>
+            <div class="box">
+                <img src="./images/d1.png" alt="" class="showimg">
+                <img src="./images/d2.png" alt="">
+                <img src="./images/d3.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="activity lazy-ajax" id="cmsActivityBar" data-type="function" style="">
+        <a  href="javascript:void(0)">
+            <img src="//image3.suning.cn/uimg/cms/img/154416730449761611.jpg">
+        </a>
+    </div>
+    <div class="wrapper">
+        <div class="procon-side">
+            <div class="si-intro">
+                <img src="./images/d4.png" alt="">
+            </div>
+        </div>
+        <div class="procon">
+            <div class="tabarea">
+                <div class="procon-toolbar">
+                    <div class="fix-qr-code"> 
+                        <div class="qrcode-region" >
+                            <span>&nbsp;扫一扫购买</span> 
+                            <em class="ph-qr-icon"></em> 
+                            <i class="ng-iconfont fa fa-angle-down"></i> 
+                            <div class="qrc-wrapper""> 
+                                <img onerror="javascript:;" class="b-img lazy-loading" src="//code.suning.cn/pc/build.do?longUrl=687474703a2f2f632e6d2e73756e696e672e636f6d2f6368616e6e656c7761702e68746d3f61707069643d31267061636b6e76657273696f6e3d313331266368616e6e656c636f64653d313030363126646f776e666c61673d312675746d5f736f757263653d7172636f64652675746d5f6d656469756d3d322675746d5f636f6e74656e743d343030302675746d5f7465726d3d30322675746d5f63616d706169676e3d26616454797065436f64653d3130313326616449643d31303630363634393836325f30303030303030303030266368616e6e656c747970653d30362673746f72653d343030305f30315f2670726f64756374547970653d30&amp;bizCode=i9seHn"> 
+                            </div> 
+                        </div> 
+                    </div>
+                    <div id="tabAddCart" class="handle" style=""> 
+                        <a id="addCart2"  class="btn-orange-mini" href="">
+                            <i></i>加入购物车
+                        </a> 
+                    </div>
+                    <ul class="tabarea-items detail-tabs">
+                        <li><a href="javascript:void(0)">商品详情</a></li>
+                        <li><a href="javascript:void(0)">包装及参数</a></li>
+                        <li><a href="javascript:void(0)">评价（2.2万+）</a></li>
+                        <li><a href="javascript:void(0)">问问已购用户</a></li>
+                        <li><a href="javascript:void(0)">售后保证</a></li>
+                    </ul>
+                </div>
+                <div class="tabarea-content clearfix">
+                    <div class="prod-detail-container">
+                        <div class="ccc-auth"><i></i>商品获得<a  href="" >中国强制性产品认证（CCC）证书</a>，符合国家强制性产品认证（CCC）标准</div>
+                    </div>
+                    <div class="pro-detail-pics">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/192175890354817247357141_x.jpg" alt="">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/761369271229629340361851_x.jpg" alt="">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/814943723123737106052366_x.jpg" alt="">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/123674554439634195343985_x.jpg" alt="">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/123674554439634195343985_x.jpg" alt="">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/970811503132228410465885_x.jpg" alt="">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/103589369179578230321335_x.jpg" alt="">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/810780754278077384543026_x.jpg" alt="">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/810780754278077384543026_x.jpg" alt="">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/168099743594736511796318_x.jpg" alt="">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/167497743610098452202023_x.jpg" alt="">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/167497743610098452202023_x.jpg" alt="">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/214396347569756368111662_x.jpg" alt="">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/214396347569756368111662_x.jpg" alt="">
+                        <img src="https://image.suning.cn/uimg/sop/commodity/115305756213415986092870_x.jpg" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- foot   start -->
+     <div class="ng-footer">
+        <div class="ng-ser-box">
+            <div class="ng-ser-box-con">
+                <div class="ng-promise">
+                    <dl>
+                        <dt>
+                            <a href="">
+                                <img src="./images/f1.jpg" alt="正品保障、提供发票">
+                            </a>
+                        </dt>
+                        <dd>
+                            <p>
+                                <strong>
+                                    <a href="">正品保障</a>
+                                </strong>
+                            </p>
+                            <p>正品保障、提供发票</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">
+                                <img src="./images/f2.jpg" alt="如约送货、送货入户">
+                            </a>
+                        </dt>
+                        <dd>
+                            <p>
+                                <strong>
+                                    <a href="">急速物流</a>
+                                </strong>
+                            </p>
+                            <p>如约送货、送货入户</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">
+                                <img src="images/f3.jpg" alt="30天包退、365天包换">
+                            </a>
+                        </dt>
+                        <dd>
+                            <p>
+                                <strong>
+                                    <a href="">帮助中心</a>
+                                </strong>
+                            </p>
+                            <p>您的购物指南</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">
+                                <img src="images/f4.jpg" alt="私人定制家电套餐">
+                            </a>
+                        </dt>
+                        <dd>
+                            <p>
+                                <strong>
+                                    <a href="">特色服务</a>
+                                </strong>
+                            </p>
+                            <p>私人定制家电套餐</p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            <a href="">
+                                <img src="images/f5.jpg" alt="您的购物指南">
+                            </a>
+                        </dt>
+                        <dd>
+                            <p>
+                                <strong>
+                                    <a href="">帮助中心</a>
+                                </strong>
+                            </p>
+                            <p>您的购物指南</p>
+                        </dd>
+                    </dl>
+                    <div class="clear"></div>
+                </div>
+                <div class="ng-help-box">
+                    <dl>
+                        <dt>购物指南</dt>
+                        <dd>
+                            <a href="">导购演示</a>
+                        </dd>
+                        <dd>
+                            <a href="">免费注册</a>
+                        </dd>
+                        <dd>
+                            <a href="">会员等级</a>
+                        </dd>
+                        <dd>
+                            <a href="">常见问题</a>
+                        </dd>
+                        <dd>
+                            <a href=""">品牌大全</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>支付方式</dt>
+                        <dd>
+                            <a href="">苏宁支付</a>
+                        </dd>
+                        <dd>
+                            <a href="">网银支付</a>
+                        </dd>
+                        <dd>
+                            <a href="">快捷支付</a>
+                        </dd>
+                        <dd>
+                            <a href="">分期付款</a>
+                        </dd>
+                        <dd>
+                            <a href="">货到付款</a>
+                        </dd>
+                        <dd>
+                            <a href="">任性付支付</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>物流配送</dt>
+                        <dd>
+                            <a href="">免运费政策</a>
+                        </dd>
+                        <dd><a href="">物流配送服务</a></dd>
+                        <dd><a href="">签收验货</a></dd>
+                        <dd><a href="">物流查询</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd>
+                            <a href="">退换货政策</a>
+                        </dd>
+                        <dd>
+                            <a href="">贵就赔</a>
+                        </dd>
+                        <dd>
+                            <a href="">维修/安装</a>
+                        </dd>
+                        <dd>
+                            <a href="">订单修改</a>
+                        </dd>
+                        <dd>
+                            <a href="">退换货申请</a>
+                        </dd>
+                        <dd>
+                            <a href="">我的发票</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt>商家服务</dt>
+                        <dd>
+                            <a href="">商家入驻</a>
+                        </dd>
+                        <dd>
+                            <a href="">培训中心</a>
+                        </dd>
+                        <dd>
+                            <a href="">广告服务</a>
+                        </dd>
+                        <dd>
+                            <a href="">商家帮助</a>
+                        </dd>
+                        <dd>
+                            <a href="">服务市场</a>
+                        </dd>
+                        <dd>
+                            <a href="">规则中心</a>
+                        </dd>
+                    </dl>
+                </div>
+                <div class="ng-app-down">
+                <p>身边苏宁</p>
+                <a href="">全国300多个城市，上万个门店和服务终端期待您的光临，为您提供最贴心的服务！</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+        <div class="ng-s-footer">
+            <div class="ng-s-f-con">
+                <p class="ng-url-list">
+                    <a href=""> 苏宁互联</a>
+                    <span>|</span>
+                    <a href="">苏宁金融</a>
+                    <span>|</span>
+                    <a href="">苏宁支付</a>
+                    <span>|</span>
+                    <a href="">PP视频</a>
+                    <span>|</span>
+                    <a href="">红孩子</a>
+                    <span>|</span>
+                    <a href="">苏宁物流</a>
+                    <span>|</span>
+                    <a href="">手机苏宁 </a>
+                    <span>|</span>
+                    <a href="">零售云</a>
+                    <span>|</span>
+                    <a href="">苏宁云</a>
+                    <span>|</span>
+                    <a href="">知识产权举报</a>
+                    <span>|</span>
+                    <a href="">投资者关系</a>
+                </p>
+                <p class="ng-url-list">
+                    <a href="">联系我们</a>
+                    <span>|</span>
+                    <a href="">诚聘英才</a>
+                    <span>|</span>
+                    <a href="">供应商入驻</a>
+                    <span>|</span>
+                    <a href="">广告平台</a>
+                    <span>|</span>
+                    <a href="">苏宁联盟</a>
+                    <span>|</span>
+                    <a href="">苏宁招标</a>
+                    <span>|</span>
+                    <a href="">友情链接</a>
+                    <span>|</span>
+                    <a href="">隐私声明</a>
+                    <span>|</span>
+                    <a href="">用户体验提升计划</a>
+                    <span>|</span>
+                    <a href="">股东会员认证</a>
+                </p>
+                <p class="ng-copyright" style="display: block;">
+                    Copyright© 2002-2018，苏宁易购集团股份有限公司版权所有
+                    <span>|</span>
+                    <a href="" style="color:#999" class="gwab">
+                        <i></i>苏公网安备 32010202010078号
+                    </a>
+                    <span>|</span>
+                    <a href="" style="color:#999">苏ICP备10207551号-4</a>
+                    <span>|</span>
+                    <a href="" style="color:#999">苏B1-20130131</a>
+                </p>
+                <p class="ng-copyright ng-copyright-2" style="display: block;">
+                    <a href="" style="color:#999">苏B2-20130376</a><span>|</span>
+                    <a href="" style="color:#999">苏B2-20130391</a><span>|</span>
+                    <a href="" style="color:#999">出版物经营许可证新出发苏批字第A-243号</a><span>|</span>
+                    互联网药品信息服务资格证书
+                    <a href="" style="color:#999">（苏）-非经营性-2016-0005</a>
+                </p>
+                <p class="ng-copyright ng-copyright-3" style="display: block;">
+                    <a href="" style="color:#999">网络文化经营许可证：苏网文〔2018〕10580-203号</a>
+                </p>
+                <p class="ng-copyright" style="display: block;">本网站直接或间接向消费者推销商品或者服务的商业宣传均属于“广告”（包装及参数、售后保障等商品信息除外）</p>
+                <div class="ng-authentication" style="display: block;">
+                    <a href="">
+                    <img src="./images/ft1.png" height="24" width="76" alt="诚信网站">
+                    </a>
+                    <a href="">
+                    <img src="./images/ft2.png" height="24" width="76" alt="中国联通授权网络经营代理商">
+                    </a>
+                    <a href="">
+                    <img src="./images/ft3.jpg" height="24" width="76" alt="中国电信授权网络经营代理商">
+                    </a>
+                    <a href="">
+                    <img src="./images/ft4.png" height="24" width="76" alt="电子营业执照">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!--top fix bar [[-->
+        <div class="ng-fix-bar ng-nav-bar">
+            <div class="index-sort">
+                <a href="javascript:void(0)" class="index-all-hook">
+                    <i></i>
+                    <span>全部商品分类</span>
+                </a>
+                <div class="index-sort-list-wrapper">
+                    <div class="nav-cover"></div>
+                    <ul class="index-list">
+                        <li>
+                            <a href="javascrpit:void(0)">手机</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">运营商</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">智能数码</a>
+                        </li>
+                        <li>
+                            <a href="javascrpit:void(0)">电视</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">冰箱</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">空调</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">洗衣机</a>
+                        </li>
+                        <li>
+                            <a href="javascrpit:void(0)">厨卫大电</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">生活家电</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">厨具</a>
+                        </li>
+                        <li>
+                            <a href="javascrpit:void(0)">电脑办公</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">相机</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">DIY</a>
+                        </li>
+                        <li>
+                            <a href="javascrpit:void(0)">家居</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">家具</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">家装</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">家纺</a>
+                        </li>
+                        <li>
+                            <a href="javascrpit:void(0)">食品</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">酒水</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">生鲜</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">特产</a>
+                        </li>
+                        <li>
+                            <a href="javascrpit:void(0)">美妆</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">个户清洁</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">宠物</a>
+                        </li>
+                        <li>
+                            <a href="javascrpit:void(0)">母婴</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">玩具</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">车床</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">童装</a>
+                        </li><li>
+                            <a href="javascrpit:void(0)">运动</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">户外</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">足球</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">跑步机</a>
+                        </li>
+                        <li>
+                            <a href="javascrpit:void(0)">男装</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">女装</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">内衣</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">鞋靴</a>
+                        </li>
+                        <li>
+                            <a href="javascrpit:void(0)">箱包</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">钟表</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">珠宝</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">艺术</a>
+                        </li>
+                        <li>
+                            <a href="javascrpit:void(0)">汽摩</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">二手车</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">汽车用品</a>
+                        </li>
+                        <li>
+                            <a href="javascrpit:void(0)">图书</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">童书</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">教辅教材</a>
+                        </li>
+                        <li>
+                            <a href="javascrpit:void(0)">医药健康</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">计生情趣</a>
+                        </li>
+                        <li>
+                            <a href="javascrpit:void(0)">理财</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">分期</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">保险</a>
+                            <em></em>
+                            <a href="javascrpit:void(0)">房产</a>
+                        </li>
+                    </ul>
+                    <div class="index-sort-detail">
+                        <div class="sort-btn"></div>
+                        <div class="cate-list"></div>
+                        <div class="act-show"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="ng-search">
+                <div class="ng-search-box g-search-fixed">
+                    <i class="ng-icon search-icon"></i>
+                    <form action="">
+                        <div class="search-keyword-box">
+                            <input type="text" class="search-keyword" placeholder="白小纯重磅首发前3000名下单8折抢">
+                        </div>
+                        <input type="submit" class="search-btn" value="搜索">
+                    </form>
+                </div>
+            </div>
+            <div class="reg-bar-node-fixed">
+                <a href="javascript:void(0)" class="login">请登录</a>
+                <a href="javascript:void(0)" class="login reg-bbb">注册有礼</a>
+            </div>
+            <a href="" class="ng-bar-node-mini-cart-fixed">
+                <em class="ng-iconfont cart fa fa-cart-plus"></em>
+                <span>购物车</span>
+                <span class="total-num-box"><b class="total-num J_cart_total_num">4</b></span>
+                <em class="ng-iconfont down fa fa-angle-down"></em>
+            </a>
+        </div>
+        <!--top fix bar ]]-->
+</div>
+    <!-- foot end -->
+</body>
+</html>
+<script src="./javascripts/detail.js"></script>
